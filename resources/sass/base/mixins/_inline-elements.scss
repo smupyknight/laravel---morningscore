@@ -1,0 +1,10 @@
+@mixin inline-parent {
+    font-size: 0;
+}
+
+@mixin inline-child($width) {
+	@include fontSize(16px);
+    display: inline-block;
+    vertical-align: top;
+    width: $width;
+}

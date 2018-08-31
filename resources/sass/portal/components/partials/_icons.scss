@@ -1,0 +1,138 @@
+/**
+ * Increasing and decreasing icons
+ */
+.increasing-icon {
+	position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+	div {
+		width: 0; 
+		height: 0; 
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-bottom: 5px solid $white;
+		margin-bottom: 3px;
+		opacity: 0;
+		animation: arrowFadeAnimation 2s ease infinite alternate;
+
+		&:nth-child(1) {
+			animation-delay: .6s;
+		}
+		&:nth-child(2) {
+			animation-delay: 0.3s;
+		}
+		&:nth-child(3) {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.all-links__wrapper .increasing-icon, .links-activity .increasing-icon {
+	position: static;
+}
+
+.increasing {
+	.status-icon {
+		@extend .increasing-icon;
+	}
+}
+
+.decreasing {
+	.status-icon {
+		@extend .increasing-icon;
+
+		div {
+			border-bottom: none;
+			border-top: 5px solid $c-error;
+			margin-bottom: 3px;
+
+			&:nth-child(1) {
+				animation-delay: 0s;
+			}
+			&:nth-child(2) {
+				animation-delay: 0.3s;
+			}
+			&:nth-child(3) {
+				animation-delay: 0.6s;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@keyframes arrowFadeAnimation {
+	0% { opacity: 0.3 }
+	50% { opacity: 0.9 }
+	100% { opacity: 0.9 }
+}
+
+/**
+ * Filter icon
+ */
+.filter-icon {
+	position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-bottom: 2px;
+
+	div {
+		width: 0; 
+		height: 0; 
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+
+		&:nth-child(1) {
+			border-bottom: 7px solid $c-text3;
+			margin-bottom: 2px;
+		}
+		&:nth-child(2) {
+			border-top: 7px solid $c-text3;
+		}
+	}
+}
+
+/**
+ * Information icon
+ */
+.information-icon {
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	flex-shrink: 0;
+
+	img {
+		display: block;
+		width: 100%;
+	}
+}
+
+/**
+ * Percentage highlight icon
+ */
+
+
+
+/**
+ * Circular logo with shadow
+ */
+.circle-icon-shadow {
+	background: $white;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+	position: relative;
+	flex-shrink: 0;
+
+	img {
+		width: 50%;
+		height: auto;
+		position: absolute;
+		top: 50%; 
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

@@ -1,0 +1,126 @@
+.links-competitors {
+	width: 100%;
+	margin-bottom: 50px;
+
+	&__wrapper {
+		@extend .white-box-in-box;
+
+		h5 {
+			padding: 30px 0px 15px 40px;
+			font-size: 1.3em;		
+		}
+
+		&__table {
+			@include break(800) {
+				overflow-x: auto;
+				overflow-y: hidden;
+			}
+		}
+		
+		table {
+            width: 100%;
+
+            @include break(800) {
+            	min-width: 760px;
+            	overflow-x: auto;
+            	overflow-y: hidden;
+            }
+
+            tbody {
+                tr {
+                    display: flex;
+					justify-content: space-between;
+					align-items: center;
+					height: 50px;   
+					border-bottom: 1px solid $c-border-light;
+
+					&:first-child {
+						color: $c-text3;
+						@include fontSize(12px);
+						line-height: 16px;
+						letter-spacing: 0;
+						font-weight: $fw_bold;
+
+						@include break(900) {
+							@include fontSize(11px);
+						}
+
+						p {
+							@include fontSize(12px);
+
+							@include break(900) {
+								@include fontSize(11px);
+							}
+						}
+					}
+
+					&:last-child {
+						border-bottom: 0;
+					}
+
+					td {
+						width: 10%;
+						display: flex;
+						justify-content: center;
+						color: $c-text3;
+
+						&:first-child { 
+							padding-left: 40px;
+							width: 30%;
+							justify-content: flex-start;
+							align-items: center;
+							color: $c-text3;
+							@include fontSize(12px);
+							line-height: 16px;
+							letter-spacing: 0;
+							font-weight: $fw_bold;
+							text-transform: uppercase;
+
+							@include break(900) {
+								@include fontSize(11px);
+								width: 25%;
+							}
+
+							p {
+								overflow: hidden;
+								white-space: nowrap;
+								text-overflow: ellipsis;
+								max-width: 100%;
+								width: 50%;
+							}
+						}
+
+						&:last-child {
+							padding-right: 40px;
+						}
+
+						.change {
+							position: relative;
+							font-size: .8rem;
+							top: -10px;
+
+							&--positive {
+								color: $c-primary;
+							}
+
+							&--negative {
+								color: $c-error;
+							}
+						}
+						.blank {
+							height: 2px;
+							width: 15px;
+							background-color: $c-text6;
+						}
+					}
+
+					&:last-child {
+						p::before {
+							content: "#"
+						}
+					}
+                }
+            }
+        }
+	}
+}

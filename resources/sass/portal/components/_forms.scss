@@ -1,0 +1,394 @@
+.form-group {
+    margin: 30px 0;
+
+    &__add-domain {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 30px;
+
+        .field-container {
+            width: 100%;
+
+            input[type="text"] {
+                max-width: 440px;
+                height: 45px;
+
+                @include break(720) {
+                    max-width: none;
+                }
+            }
+
+            .form-error {
+                padding: 5px 0;
+                position: absolute;
+            }
+        }
+
+        @include break(720) {
+            flex-flow: column;
+            align-items: flex-start;
+        }
+    }
+
+    .fields-group {
+        label {
+            margin-top: 20px;
+        }
+
+        &--inline {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            @include break(780) {
+                flex-flow: column;
+                align-items: unset;
+            }
+        }
+
+        &--2-col {
+            .field-container {
+                flex-basis: 49%;
+            }
+        }
+
+        &--3-col {
+            .field-container {
+                flex-basis: 30%;
+            }
+
+            .submit-container {
+                margin-top: auto;
+            }
+        }
+
+        &--4-col {
+            .field-container {
+                flex-basis: 25%;
+            }
+
+            .submit-container {
+                margin-top: auto;
+                flex-basis: 15%;
+            }
+        }
+
+        .submit-container--bigger {
+            .button {
+                height: 55px;
+                width: 100%;
+
+                @include break(780) {
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+
+    .fields-group--3-col--has-button{
+        .field-container {
+            flex-basis: 42%;
+        }
+        .submit-container {
+            flex-basis: 10%;
+        }
+    }
+}
+
+.modal-title {
+    margin: 3rem 0;
+}
+
+.modal-title-group {
+    display: flex;
+    justify-content: space-between;
+
+    @include break(956)  {
+        flex-flow: column;
+    }
+
+    &__description {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        @include break(1000) {
+            display: block;
+        }
+    }
+
+    &__profile-info {
+        flex-basis: 35%;
+
+        @include break(1160) {
+            flex-basis: 45%;
+        }
+
+        .user-address {
+            text-align: right;
+        }
+    }
+
+    &__profile-info {
+        display: flex;
+        box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 2px;
+
+        div {
+            width: 100%;
+
+            .username {
+                padding: 20px 20px 0 20px;
+                color: $c-primary;
+                font-weight: 500;
+            }
+
+            .info {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 20px 0 20px;
+                color: $c-dark;
+            }
+
+            .profile-info-footer {
+                padding: 10px 10px 0 10px;
+                display: flex;
+                justify-content: space-between;
+                background-color: $c-light;
+
+                div {
+                    padding: 0 10px;
+                }
+
+                .pricing {
+                    flex-basis: 25%;
+
+                    h1 {
+                        line-height: 1em;
+                        font-weight: 800;
+                        color: $c-primary;
+                        text-align: right;
+                    }
+
+                    .smaller {
+                        @include fontSize(14px);
+                    }
+                }
+
+                .billing-information {
+                    h5 {
+                        font-weight: 500;
+                        color: $c-dark;
+                    }
+                    p {
+                        margin-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-title {
+    font-weight: 500;
+
+    &--has-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include break(500) {
+            flex-flow: column;
+        }
+
+        span {
+            width: 100%;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            max-height: 20px;
+            max-width: 20px;
+            margin-right: 5px;
+            @include break(500) {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    &__icon {
+        display: flex;
+        align-content: center;
+        width: 100%;
+        justify-content: flex-end;
+
+        @include break(500) {
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+
+        .language {
+            cursor: pointer;
+            display: flex;
+            width: 100%;
+            opacity: .3;
+            transition: opacity .1s ease-in;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &--active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__system-language {
+        .language {
+            width: auto;
+            margin: 0 15px;
+
+            @include break(500) {
+                margin: 0 20px 0 0;
+            }
+        }
+    }
+}
+
+.form-error {
+    padding: 20px 0;
+    color: $c-danger;
+}
+
+.setup-form-outer {
+    padding: 150px 0;
+
+    @include breakpoint(mobile) {
+        padding: 100px 0;
+    }
+}
+
+.setup-form {
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -150px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #F5F9FC;
+        z-index: -1;
+    }
+
+    @media screen and (min-width: 675px) {
+        background: $white;
+        box-shadow: $shadow;
+        border-radius: $br;
+        border: 1px solid $c-light;
+        margin: 150px auto;
+    }
+
+    border-radius: 2px;
+    width: 40%;
+
+    @include break(1200)  {
+        width: 55%;
+    }
+
+    @include break(900)  {
+        width: 75%;
+    }
+
+    @include break(675)  {
+        width: 100%;
+    }
+
+    margin: auto;
+    
+    &__header {
+        height: 30%;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__body {
+        h2 {
+            color: $c-primary;
+            
+            span {
+                font-weight: 800;
+            }
+        }
+
+        @include break(530)  {
+            h2, p {
+                text-align: center
+            }
+            
+            p {
+                margin-top: 20px;
+            }
+        }
+        
+        padding: 40px 60px;
+        .field-container {
+            margin-top: 20px;
+            @include break(530) {
+                label {
+                    text-align: center;
+                }
+                input {
+                    text-align: center;
+                    padding: 0 20px;
+                }
+            }
+        }
+    .submit-container {
+            @include break(530) {
+                input {
+                    display: block;
+                    margin: 0 auto;
+                }
+                
+            }
+        }
+        input {
+            margin: 10px 0;
+        }
+    }
+    
+}
+.form-body {
+    transition: opacity 0.2s ease-out;
+}
+
+
+.input-error, .input-loading, .input-ok {
+    transition: none !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    background-position: 97% center !important;
+}
+.input-error {
+    border: 1px solid $c-danger !important;
+    background-image: url('../img/icons/error.svg') !important;
+}
+.input-loading {
+    opacity: 0.7 !important;
+    background-image: url('../img/loader.gif') !important;
+}
+.input-ok {
+    border: 1px solid $c-success !important;
+    background-image: url('../img/icons/success.svg') !important;
+}

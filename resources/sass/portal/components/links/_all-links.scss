@@ -1,0 +1,185 @@
+.all-links {
+	width: 100%;
+
+	&__wrapper {
+		@extend .white-box-in-box;
+
+		h5 {
+			padding: 30px 0px 15px 40px;
+			font-size: 1.3em;
+		}
+
+        .all-links__table {
+            @include break(500) {
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+        }
+
+		thead {
+			tr {
+				display: flex;
+				justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid $c-border-light;
+                height: 50px;
+
+				th {
+					color: $c-text3;
+                    text-transform: uppercase;
+                    user-select: none;
+
+                    div {
+                        @include fontSize(12px);
+
+                        @include break(900) {
+                            @include fontSize(11px);
+                        }
+                    }
+				}
+
+				th:first-child {
+					padding-left: 40px;
+					text-align: left;
+					.filter-arrow {
+						margin-left: 12px;
+					}
+				}
+
+				th:last-child {
+					width: 15%;
+				}
+			}
+		}
+
+		table {
+            width: 100%;
+            min-height: 550px;
+
+            &.no_links {
+                min-height: inherit;
+            }
+
+            @include break(500) {
+                min-width: 310px;
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+
+            tbody {
+                tr {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 50px;   
+                    border-bottom: 1px solid $c-border-light;
+
+					&.no_links {
+                        border-bottom: 0;
+
+                        td:last-child {
+                            background: none;
+                        }
+                    }
+
+                    td {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+							color: $c-text3;
+                            @include setFontSize(14px, 13px, 12px);
+                            line-height: 22px;
+                        }
+                    }
+
+                    td:first-child { 
+                        padding-left: 40px;
+                        width: 85%;
+
+                        @include break(500) {
+                            width: 75%;
+                        }
+
+                        p {
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            max-width: 100%;
+                        }
+                    }
+
+                    td:last-child { 
+                        justify-content: center;
+                        width: 15%; 
+                        background: $c-light;
+						margin-right: -1px;
+                        position: relative;
+
+                        @include break(500) {
+                            width: 25%;
+                        }
+
+						.tooltip {
+							background-color: $white;
+							display: flex;
+							position: absolute;
+							z-index: 1;
+							width: 40px;
+							height: 40px;
+							justify-content: center;
+							align-items: center;
+							letter-spacing: -0.24px;
+							bottom: 25px;
+							top: 50%;
+							box-shadow: $shadow-small;
+							text-transform: uppercase;
+							border-radius: 5px;
+							left: 50%;
+							margin-right: -50%;
+							opacity: 0;
+							visibility: hidden;
+							transition: transform 250ms ease-in-out 100ms, opacity 350ms, visibility 350ms ease-in-out 100ms;
+							transform: translate(30px, -50%);
+						}
+
+						&:hover {
+							.tooltip {
+								opacity: 1;
+								visibility: visible;
+								top: 50%;
+								transform: translate(40px, -50%);
+							}
+						}
+
+                        .status-icon {
+                            transform: translateY(0);
+                            display: flex;
+                            top: inherit;
+                            right: inherit;
+
+                            div {
+                                transform: rotate(90deg);
+                                border-bottom: 10px solid $c-text6;
+                                border-left: 6px solid transparent;
+                                border-right: 6px solid transparent;
+                            }
+
+                            .active {
+                                border-bottom: 10px solid $c-primary;
+                            }
+                        }
+                    }
+                }
+            }
+		}
+
+        .paginator {
+            margin-top: 0;
+            padding: 15px;
+
+            @include break(500) {
+                padding: 0 0 10px 0;
+            }
+        }
+	}
+}

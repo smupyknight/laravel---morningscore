@@ -1,0 +1,163 @@
+.calculations-modal {
+    position: relative;
+
+    .modal-container {
+        padding: 1.5rem 0;
+    }
+
+    .modal-title {
+        padding: 0 45px;
+        width: 100%;
+
+        h2 {
+            color: $c-primary;
+        }
+    }
+
+    .tagline {
+        margin: 1.5rem 0 3rem;
+    }
+
+    .click-price {
+        padding: 30px;
+        background-color: $c-light;
+        border-top: 1px solid $c-border-light;
+        border-bottom: 1px solid $c-border-light;
+        text-align: center;
+        img {
+            padding: 3px;
+            height: 20px;
+            width: 20px;
+            border-radius: 100%;
+            transform: rotate(45deg);
+            background-color: $c-secondary;
+            border: 1px solid $c-border-light;
+        }
+        h2 {
+            font-weight: 500;
+            color: $c_primary;
+            .small {
+                color: lighten($c-text, 30%);
+                @include fontSize(14px);
+            }
+        }
+    }
+
+    .words-table-wrapper {
+        .words-table-caption {
+            padding: 50px 30px;
+            h4 {
+                text-align: center;
+                font-weight: 800;
+                color: $c-primary;
+            }
+        }
+
+        .words-table {
+
+            @include break(720) {
+                overflow: auto;
+                margin-bottom: 15px;
+            }
+
+            table, thead, tbody, tr {
+                width: 100%;
+            }
+            table {
+                @include break(720) {
+                    width: 800px !important;
+                    overflow-x: scroll;
+                }
+
+                tr {
+                    display: flex;
+                    padding: 15px 45px 15px 45px;
+                    border-bottom: 1px solid $c-border-light;
+
+                    td, th {
+                        flex-basis: 15.6666%;
+                        width: 15.6666%;
+                        color: $c-text3;
+                        text-align: left;
+                        position: relative;
+                        text-align: center;
+
+                        &:first-child {
+                            flex-basis: 21.6666%;
+                            width: 21.6666%;
+                            text-align: left;
+                        }
+                    }
+
+                    th {
+                        @include fontSize(12px);
+                        line-height: 16px;
+                        letter-spacing: 0;
+                        text-transform: uppercase;
+                        font-weight: $fw_bold;
+                        user-select: none;
+						&:first-child {
+							img {
+								margin-left: 30px;
+							}
+						}
+
+                        @include break(900) {
+                            @include fontSize(11px);
+                        }
+                    }
+
+                    td {
+                        font-weight: $fw_regular;
+                        display: block;
+                        @include setFontSize(14px, 13px, 12px);
+                        line-height: 20px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                            
+                            abbr[title] {
+                                border-bottom: none;
+                                cursor: inherit;
+                                text-decoration: none;
+                            }
+
+                    }
+
+                }
+            }
+        }
+
+        .paginator {
+            padding: 0 45px;
+
+            @include break(500) {
+                padding: 0 30px;
+            }
+
+            &__prev, &__next {
+                margin: 0;
+            }
+        }
+    }
+
+    .filter-wrap {
+		display: flex;
+		justify-content: space-between
+    }
+
+    .competitors-tabs {
+		display: flex;
+		flex-basis: 63%;
+    }
+
+    img.loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        transform: translate(-30px, -30px);
+        z-index: 9910000000;
+    }
+}

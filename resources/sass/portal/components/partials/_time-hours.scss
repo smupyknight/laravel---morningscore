@@ -1,0 +1,20 @@
+.time-hours {
+	display: flex;
+	margin-top: 4px;
+	flex-shrink: 0;
+
+	span:first-child {
+		color: $c-primary;
+		@include fontSize(22px);
+		font-weight: 600;
+		margin-right: 4px;
+		line-height: 40px;
+	}
+
+	span:nth-child(2) {
+		color: $c-text3;
+		@include fontSize(14px);
+		font-weight: 600;
+		line-height: 44px;
+	}
+}

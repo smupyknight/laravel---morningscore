@@ -1,0 +1,47 @@
+.report-filter-nav {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+
+    @include break(550) {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+
+        @include break(550) {
+            justify-content: center;
+        }
+
+        li {
+            font-weight: $fw_bold;
+            color: $c-text1;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-right: 40px;
+            opacity: .65;
+            transition: .3s ease opacity;
+            cursor: pointer;
+
+            &.active, &:hover {
+                opacity: 1;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            @include break(700) {
+                margin-right: 20px;
+            }
+            
+            @include break(550) {
+                margin-right: 15px;
+                @include fontSize(13px);
+            }
+        }
+    }
+}

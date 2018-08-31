@@ -1,0 +1,257 @@
+.ReactModalPortal > * {
+    // When the modal is closed, overlay div has no css class
+    // This selector should be overridden by the `&--after-open` class below
+    opacity: 0;
+}
+
+.modal-overlay {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(245, 249, 252, 0.9);
+    z-index: 10;
+    cursor: pointer;
+
+    &.ReactModal__Overlay {
+        transition: opacity 300ms ease-in-out;
+
+        &--after-open {
+            opacity: 1;
+
+            .modal-content {
+                transform: translate3d(0, 0, 0);
+
+                .modal-wrapper {
+                    .modal-container {
+                        opacity: 1;
+                        transform: translate3d(0, 0, 0);
+                    }
+                }
+            }
+        }
+        &--before-close {
+            opacity: 0;
+
+            .modal-content {
+                transform: translate3d(0, -50%, 0) scale(0.8);
+            }
+        }
+    }
+
+    .modal-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        border: none;
+        border-radius: unset;
+        outline: none;
+        max-width: 1030px;
+        margin: 0px auto;
+        width: 90%;
+        cursor: default;
+        transform: translate3d(0, 50%, 0);
+        transition: transform 400ms ease;
+
+        .modal-wrapper {
+            max-height: 84vh;
+            height: auto;
+            width: 100%;
+            box-shadow: $shadow;
+            background-color: $white;
+            position: relative;
+            z-index: 2;
+            overflow-x: hidden;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            
+            .modal-header {
+                position: relative;
+                padding-bottom: 45%;
+
+                .logo-container {
+                    position: relative;
+                    z-index: 2;
+                    max-width: 600px;
+                    margin: 0 auto;
+                    width: 90%;
+                    top: 40px;
+
+                    @include break(700) {
+                        top: 20px;
+                    }
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .header-image {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 96%;
+                    z-index: 1;
+                }
+
+                svg#modal-curves {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    z-index: 2;
+
+                    path {
+                        fill: $white;
+
+                        &#curve1 {
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+
+            .modal-container {
+                max-width: 600px;
+                width: 90%;
+                margin: 0 auto;
+                padding: 60px 0;
+                transform: translate3d(0, 50px, 0);
+                opacity: 0;
+                transition: transform 450ms ease-in-out 100ms, opacity 550ms ease-in-out 100ms;
+
+                &.tight {
+                    padding: 20px 60px;
+                    margin:0px;
+                    width: 100%;
+                    max-width: 100%;
+
+                    @include break(600) {
+                        padding: 10px;
+                    }
+                }
+
+                @include break(900) {
+                    padding: 30px 0;
+                }
+
+                .modal-text {
+                    margin-bottom: 1rem;
+                }
+
+                .modal-title {
+                    color: $c-primary;
+                    @include fontSize(23px);
+                    line-height: 1.4;
+                    margin-bottom: 2rem;
+
+                    p {
+                        color: $c-text3;
+                        @include setFontSize(14px, 13px, 12px);
+                        font-weight: $fw_regular;
+                        margin-top: 5px;
+                    }
+                }
+
+                p {
+                    margin-bottom: 1rem;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+
+                span {
+                    &.highlight {
+                        color: $c-primary;
+                        font-weight: $fw_bold;
+                        margin: 1rem 0;
+                        display: block;
+                    }
+                }
+
+                a {
+                    &.help-link {
+                        color: $c-text4;
+                        @include fontSize(12px);
+                        text-transform: uppercase;
+                        display: block;
+                        margin-top: 1rem;
+                        transition: color .2s ease, font-weight .2s ease;
+
+                        &:hover {
+                            color: darken($c-text4, 15%);
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .dot-pattern, .plus-pattern {
+            position: absolute;
+            z-index: 1;
+        }
+
+        .dot-pattern {
+            top: -32px;
+            left: -51px;
+            width: 240px;
+            height: 330px;
+            opacity: 0.8;
+            @include pattern('circle', 35px);
+        }
+
+        .plus-pattern {
+            bottom: -100px;
+            right: -160px;
+            width: 435px;
+            height: 165px;
+            opacity: 0.5;
+            @include pattern('plus', 40px);
+        }
+    }
+    .larger {
+        max-width: 1450px;
+        .modal-container {
+            max-width: 1200px !important;
+        }
+    }
+
+    .smallest {
+        max-width: 760px;
+    }
+}
+.close-icon {
+    position: fixed;
+    z-index: 10;
+    width: 16px;
+    margin-top: -23px;
+    float: right;
+    top: 63px;
+    right: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .close-icon {
+        position: relative!important;
+    }
+
+    .modal-overlay.ReactModal__Overlay--after-open .modal-content {
+        transform: translate3d(0px, 50%, 0px);
+        bottom: 50%;
+    }
+}

@@ -1,0 +1,25 @@
+body.auth {
+  height: 100vh;
+  padding-bottom: 0;
+
+  .content {
+    position: relative;
+    max-width: 368px;
+
+    h1 {
+      margin: 0 0 15px 0;
+    }
+
+    .fields {
+      margin-bottom: 15px;
+
+      > * {
+        margin: 15px 0 0 0;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

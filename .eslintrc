@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "templateStrings": true,
+    "arrowFunctions": true,
+    "blockBindings": true,
+    "jsx": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": [2, "always"],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "info"
+        ]
+      }
+    ],
+    "react/jsx-uses-vars": [
+      2
+    ],
+    "no-mixed-spaces-and-tabs": 0
+  }
+}

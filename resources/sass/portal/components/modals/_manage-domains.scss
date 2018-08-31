@@ -1,0 +1,31 @@
+.domain-list {
+	margin: 0!important;
+
+    p {
+        margin-bottom: 0!important;
+    }
+
+    .fields-group--inline {
+        align-items: center!important;
+        border-bottom: 1px solid $c-border-light;
+        padding: 10px 0;
+        height: 55px;
+
+        @include break(780) {
+            flex-flow: row!important;
+            align-items: flex-start!important;
+        }
+    }
+
+    input.remove {
+    	width: 18px;
+    	height: 18px;
+    	border: 0;
+    	background: {
+    		color: transparent;
+    		image: url('../img/icons/remove-keyword.svg');
+    		repeat: no-repeat;
+    		size: 18px;
+    	}
+    }
+}

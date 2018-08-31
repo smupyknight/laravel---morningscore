@@ -1,0 +1,61 @@
+.coming-onsite {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    @include break(1100) {
+        display: block;
+    }
+    &__info {
+        width: 28%;
+        @include break(1500) {
+            width: 40%;
+        }
+        @include break(1100) {
+            width: 100%;
+            margin-bottom: 70px;
+        }
+        &__description {
+            @extend .cs-desc;
+        }
+        &__time-to-release {
+            @extend .cs-ttr;
+        }
+    }
+
+    .activity-box {
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 5px;
+
+        @include break(1849) {
+            top: 30px;
+        }
+
+        @include break(1670) {
+            top: 55px;
+        }
+
+        @include break(1500) {
+            width: 50%;
+            top: -20px;
+        }
+
+        @include break(1370) {
+            top: 5px;
+        }
+
+        @include break(1250) {
+            top: 30px;
+        }
+
+        @include break(1130) {
+            top: 55px;
+        }
+
+        @include break(1100) {
+            width: 100%;
+            position: inherit;
+        }
+    }
+}

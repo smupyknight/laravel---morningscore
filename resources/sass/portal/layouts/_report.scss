@@ -1,0 +1,121 @@
+body.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.content {
+    &.report {
+        background: $c-light;
+    }
+
+    .report-wrapper {
+        position: relative;
+        z-index: 2;
+        margin-top: -270px;
+    
+        .report-container {
+            margin: 0 auto;
+            width: 90%;
+            padding-bottom: 100px;
+    
+            .morningscore-stats {
+                display: flex;
+                justify-content: space-between;
+                max-height: 200px;
+
+                @include break(1250) {
+                    flex-wrap: wrap;
+                    max-height: unset;
+                }
+    
+                >div {
+                    flex-grow: 1;
+                }
+
+                [data-react-class="portal.CurrentMorningscore"] {
+                    @extend .white-box;
+                    overflow: hidden;
+                    padding: 24px 37px;
+                    width: 370px;
+                    flex-shrink: 0;
+
+                    @include break(1520) {
+                        max-width: 350px;
+                    }
+
+                    @include break(1250) {
+                        order: 0;
+                        max-width: unset;
+                        margin-right: 30px;
+                    }
+
+                    @include break(1280) {
+                        width: unset;
+                        max-width: 370px;
+                    }
+
+                    @include break(850) {
+                        width: 100%;
+                        max-width: unset;
+                        min-height: 190px;
+                    }
+                }
+
+                [data-react-class="portal.HistoricalMorningscore"] {
+                    width: 45%;
+                    flex-shrink: 1;
+
+                    @include break(1520) {
+                        width: 35%;
+                    }
+
+                    @include break(1250) {
+                        order: 2;
+                        width: 100%;
+                        margin-top: 30px;
+                    }
+
+                    @include break(850) {
+                        order: 0;
+                        margin-top: 0;
+                    }
+                }
+
+                [data-react-class="portal.Competitors"] {
+                    @extend .white-box;
+                    width: 470px;
+                    flex-shrink: 0;
+
+                    @include break(1520) {
+                        max-width: 450px;
+                    }
+
+                    @include break(1250) {
+                        order: 1;
+                        min-height: 200px;
+                        max-width: unset;
+                        width: min-content;
+                    }
+
+                    @include break(850) {
+                        order: 0;
+                    }
+
+                    @include break(500) {
+                        width: 100%;
+                        overflow: hidden;
+                    }
+                }
+            }
+    
+            .activity-container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+
+                @include break(1160) {
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}

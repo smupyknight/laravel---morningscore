@@ -1,0 +1,21 @@
+@function calculateRem($size) {
+    $remSize: $size / 14px;
+    @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+    font-size: $size; //Fallback in px
+    font-size: calculateRem($size);
+}
+
+@mixin setFontSize($regular, $medium, $small) {
+    @include fontSize($regular);
+
+    @media screen and (max-width: 1440px) {
+        @include fontSize($medium);
+    }
+    
+    @media screen and (max-width: 500px) {
+        @include fontSize($small);
+    }
+}

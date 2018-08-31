@@ -1,0 +1,59 @@
+.information-modal {
+    
+    .information-modal-header{
+        .information-modal-header-video {
+            height: 410px;
+        }
+        .modal-overlay-image {
+            z-index: 999;
+            height: 500px;
+            width: 100%;
+            margin-top: -499px;
+            position: absolute;
+            display: flex;
+            align-items: flex-end;
+            img {
+                width: 100%;
+                height: 50%;
+                transition: height 0.5s ease-in-out;
+            }
+        }    
+    }
+    .play-video-button {
+        position: relative;
+        margin-top: -70px;
+        margin-left: 77%;
+        top: -60px;
+        z-index: 999;
+        transition: top .5s ease-out;
+    }
+
+    .information-modal-body {
+        margin-top: -20px;
+        h6, p {
+            padding: 20px 0 20px 0;
+        }
+        h6 {
+            color: $c_primary;
+        }
+    }
+}
+
+.playing {
+    .play-video-button {
+        top: 35px;
+    }
+    .modal-overlay-image {
+        img {
+            height: 0% !important;
+        }
+        
+    }
+    iframe {
+        position: relative;
+    }
+}
+
+.information-modal-infographic {
+    padding: 60px;
+}

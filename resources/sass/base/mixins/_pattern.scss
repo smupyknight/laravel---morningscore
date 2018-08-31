@@ -1,0 +1,10 @@
+@mixin pattern($image, $size) {
+    position: absolute;
+    
+    svg {
+        width: 78%;
+        height: 63%;
+    	background-image: url('../img/patterns/#{$image}.svg');
+        background-size: $size $size;
+    }
+}

@@ -1,0 +1,41 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: $c-darker;
+  z-index: 10000;
+
+  .brand {
+    height: 80px;
+    padding: 30px;
+    background-color: $c-dark;
+
+    a {
+      display: block;
+      color: $c-lighter;
+      text-decoration: none;
+      position: relative;
+      padding-left: 60px;
+      @include fontSize(18px);
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-56%);
+      }
+    }
+  }
+
+  .nav-container {
+    overflow: auto;
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    width: 100%;
+  }
+
+}

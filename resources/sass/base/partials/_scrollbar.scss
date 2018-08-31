@@ -1,0 +1,30 @@
+.custom-scrollbar::-webkit-scrollbar-track {
+	border: 0;
+	background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+	width: 8px;
+	background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	width: 100%;
+	height: 50px;
+	background-color: $c-text6;
+}
+
+// scrollbar for ie
+.custom-scrollbar {
+	scrollbar-face-color: $c-text6;
+	scrollbar-track-color: $c-light;
+	scrollbar-shadow-color: $c-light;
+	scrollbar-highlight-color: $c-light;
+	scrollbar-3dlight-color: $c-light;
+	scrollbar-darkshadow-Color: $c-light;
+
+	// Add scrollbar if overflowing
+	overflow-y: auto;
+	-ms-overflow-style: scrollbar;
+}

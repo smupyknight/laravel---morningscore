@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "animejs": "^2.2.0",
+    "axios": "^0.16.2",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-inherited-hook-forked": "^3.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "cleopatra": "^0.1.9",
+    "element-dataset": "^2.2.6",
+    "es6-promise": "^4.1.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-react": "^7.7.0",
+    "flag-icon-css": "^3.0.0",
+    "formdata-polyfill-on-demand": "^1.0.2",
+    "mixrc": "^0.1.2",
+    "moment": "^2.21.0",
+    "morningscore-charts": "git+ssh://git@grandcentral.backuptrain.dk:7331/morningscore/charts.git",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.6.1",
+    "react": "^15.6.1",
+    "react-date-range": "^0.9.4",
+    "react-dom": "^15.6.1",
+    "react-modal": "^3.3.2",
+    "react-required-if": "^1.0.3",
+    "react-transition-group": "^1.2.0",
+    "shortid": "^2.2.8",
+    "socket.io-client": "^2.0.4",
+    "uuid": "^3.1.0"
+  },
+  "dependencies": {
+    "react-load-script": "^0.0.6"
+  }
+}

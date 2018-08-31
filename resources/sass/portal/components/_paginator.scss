@@ -1,0 +1,80 @@
+.paginator {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    user-select: none;
+
+    &__prev, &__next {
+        @extend .white-box-in-box;
+        padding: 10px 20px;
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        transition: all .1s ease-out;
+        cursor: pointer;
+        user-select: none;
+        background: {
+            image: url('#{$images-path}/icons/arrow-line.svg');
+            position: 80% center;
+            repeat: no-repeat;
+            size: 7px 12px;
+        }
+
+        @include break(500) {
+            padding: 10px 5px;
+            margin: 0 10px;
+        }
+
+        &:hover {
+            background-color: $c-lighter;
+            color: $c-text6;
+            box-shadow: 0 0 5px (0, 0, 0, 0.2);
+        }
+    }
+
+    &__prev {
+        transform: rotateY(180deg);
+
+        span {
+            transform: rotateY(180deg);
+            padding-left: 20px;
+
+            @include break(500) {
+                padding-left: 15px;
+            }
+        }
+    }
+
+    &__next {
+        span {
+            padding-right: 20px;
+
+            @include break(500) {
+                padding-right: 15px;
+            }
+        }
+    }
+
+    &__page-selector {
+        min-width: 70px;
+
+        @include break(500) {
+            min-width: 60px;
+        }
+
+        select {
+            @extend .white-box-in-box;
+        }
+    }
+    // .disabled a {
+    //     &:hover{
+    //         transform: unset;
+    //     }
+    //     background: unset;
+    //     box-shadow: unset;
+    // }
+}
+
+.paginator-hidden {
+	display: none;
+}

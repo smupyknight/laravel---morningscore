@@ -1,0 +1,55 @@
+@import "../vars/typography";
+@import "../vendor/font-gotham";
+
+html, body {
+	font-family: $font_prim;
+	font-size: $fs_prim;
+	line-height: $lh_prim;
+	color: $fc_prim;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font_prim;
+	font-weight: $fw_regular;
+	line-height: $lh_prim;
+}
+
+h1 {
+	font-size: $fs_h1;
+}
+
+h2 {
+	font-size: $fs_h2;
+}
+
+h3 {
+	font-size: $fs_h3;
+}
+
+h4 {
+	font-size: $fs_h4;
+}
+
+h5 {
+	font-size: $fs_h5;
+}
+
+h6 {
+	font-size: $fs_h6;
+}
+
+p {
+	font-size: $fs_prim;
+}
+
+strong, .bold {
+	font-weight: $fw_bold;
+}
+
+i, .italic {
+	font-style: italic;
+}
+

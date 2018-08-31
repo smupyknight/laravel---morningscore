@@ -1,0 +1,94 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 250px;
+  right: 0px;
+  height: 80px;
+  border-bottom: 1px solid $c-border-light;
+  background: #FFFFFF;
+  z-index: 100000;
+  @include clearfix;
+
+  .nav {
+    list-style: none;
+    padding: 15px 0;
+    margin: 0px 20px;
+    @include clearfix;
+
+    li, li a, select {
+      color: $c-text-dark;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 5px;
+      line-height: $layout-header-item-height;
+      float: left;
+
+      &.separator {
+        width: 1px;
+        height: $layout-header-item-height;
+        background-color: $c-border-light;
+        margin: 0px 10px;
+
+        &.slash {
+          background: transparent;
+          width: 12px;
+          height: 28px;
+          position: relative;
+          margin: 0px;
+          left: -6px;
+
+          &:after {
+            content: "";
+            position: absolute;
+            border-top: 1px solid lightgrey;
+            width: 24px;
+            top: 37px;
+            left: 8px;
+            transform: rotate(-75deg);
+            transform-origin: 0% 0%;
+          }
+
+        }
+      }
+
+      &.welcome-message {
+        a {
+          font-weight: bold;
+        }
+      }
+
+      &.breacrumb-item {
+        cursor: default;
+
+        a {
+          cursor: pointer;
+        }
+      }
+
+      &.breadcrumb-separator {
+        &:last-of-type {
+          display: none;
+        }
+      }
+
+    }
+
+    &.left {
+      float: left;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+
+  .page-title {
+    font-weight: bold;
+  }
+
+  .page-title, .welcome-message {
+    @include fontSize(14px);
+  }
+}

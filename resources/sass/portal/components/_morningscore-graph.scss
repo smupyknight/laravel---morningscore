@@ -1,0 +1,94 @@
+.morningscore-graph {
+    @extend .white-box;
+    margin: 0 30px;
+
+    &--loading {
+        padding: 13px 30px;
+        height: 100%;
+        max-height: 200px;
+        
+        h5 {
+            padding: 0 !important;
+        }
+        .morningscore-graph-content-wrapper {
+            display: flex;
+
+            img {
+                padding-left: 10px;
+                opacity: .4;
+                max-width: 200px;
+            }
+        }
+    }
+
+    @include break(1440) {
+        margin: 0 8%;
+    }
+
+    @include break(1340) {
+        margin: 0 5%;
+    }
+
+    @include break(1250) {
+        margin: 0;
+    }
+
+    @include break(850) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    text {
+        @include fontSize(12px);
+    }
+
+    .morningscore-graph-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 2px;
+
+        h5 {
+            @include setFontSize(12px, 11px, 10px);
+            color: $c-text5;
+            line-height: 21px;
+            letter-spacing: 0;
+            padding: 23px 30px 10px 30px;
+
+            @include break-between(1200, 1240) {
+                @include fontSize(13px);
+            }
+        }
+
+        .competitor-filter-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: $shadow-small;
+            transition: box-shadow .2s ease, transform .2s ease;
+            display: none;
+
+            &:hover {
+                box-shadow: $shadow;
+                transform: translateY(-1px);
+            }
+
+            &:active {
+                box-shadow: $shadow-small;
+                transform: translateY(0);
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                user-select: none;
+                -webkit-user-drag: none;
+            }
+        }
+    }
+}

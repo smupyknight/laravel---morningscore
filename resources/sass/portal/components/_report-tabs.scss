@@ -1,0 +1,45 @@
+.report-tabs__content {
+    overflow: hidden;
+    padding: 50px 55px;
+
+    @include break(500) {
+        padding: 30px;
+    }
+    
+    .rank-progress {
+        margin-bottom: 50px;
+    }
+    .content-container {
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0;
+        height: 0;
+        pointer-events: none;
+        z-index: 1;
+        position: relative;
+    }
+    .content-active {
+        pointer-events: all;
+        z-index: 99;
+        opacity: 1;
+        height: 100%;
+	}
+	
+	.links-activity-container {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+
+        @include break(1100) {
+            flex-wrap: wrap;
+        }
+	}
+}
+.shotout {
+	display: flex;
+	padding-bottom: 20px;
+	img {
+		height: 20px;
+		margin-left: 10px;
+	}
+	
+}

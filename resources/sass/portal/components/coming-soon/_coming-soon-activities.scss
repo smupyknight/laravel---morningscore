@@ -1,0 +1,210 @@
+.coming-activities {
+    @extend .white-box;
+    margin-top: 50px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    @include break(1340) {
+        flex-wrap: wrap;
+    }
+    @include break(500) {
+        padding: 30px;
+    }
+    &__info {
+        width: 28%;
+        flex-shrink: 0;
+        @include break(1550) {
+            width: 350px;
+        }
+        @include break(1340) {
+            width: 45%;
+        }
+        @include break(1000) {
+            width: 100%;
+        }
+        &__description {
+            @extend .cs-desc;
+        }
+        &__time-to-release {
+            @extend .cs-ttr;
+        }
+    }
+    &_info {
+        width: 33.333%;
+    }
+    &__table {
+        width: 33.333%;
+        flex-shrink: 1;
+        @include break(1400) {
+            width: 30%;
+        }
+        @include break-between(1000, 1340) {
+            width: 45%;
+        }
+        @include break(1000) {
+            width: 100%;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            tr {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 85px;
+                padding: 10px 0;
+                border-bottom: 1px solid $c-border-light;
+
+                @include break(500) {
+                    height: 70px;
+                }
+
+                &:last-child {
+                    border-bottom: none;
+                }
+                td {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    div {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        div {
+                            display: block;
+                        }
+                    }
+                    .activity-icon-wrapper {
+                        height: 50px;
+                        width: 50px;
+                        padding: 13px;
+                        margin-right: 15px;
+                        border-radius: 100%;
+                        flex-shrink: 0;
+                        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+                        @include break(500) {
+                            height: 40px;
+                            width: 40px;
+                            padding: 11px;
+                            margin-right: 10px;
+                        }
+                    }
+                    .activit-description-wrapper {
+                        p:first-child {
+                            font-weight: 500;
+                            color: $c-text3;
+                            @include setFontSize(16px, 15px, 13px);
+                            line-height: 22px;
+                            letter-spacing: 0;
+                        }
+                        p:last-child {
+                            color: #b0c1dd;
+                            @include setFontSize(14px, 13px, 11px);
+                            line-height: 20px;
+                            letter-spacing: 0;
+                        }
+
+                        .dummyTitle {
+                            max-width: 140px;
+                            height: 15px;
+                            background-color: #eef2f9;
+
+                            &.long {
+                                max-width: 210px;
+                            }
+
+                            &.medium {
+                                max-width: 175px;
+                            }
+                        }
+
+                        .dummyDesc {
+                            margin-top: 5px;
+                            max-width: 90px;
+                            height: 12px;
+                            background-color: #f5f9fc;
+                        }
+                    }
+
+                    .dummyIcon {
+                        min-width: 50px;
+                        max-width: 50px;
+                        height: 50px;
+                        margin-right: 15px;
+                        border-radius: 100%;
+                        background: {
+                            color: #f2f6f9;
+                            image: url('../img/icons/activity.svg');
+                            size: 28px;
+                            repeat: no-repeat;
+                            position: center center;
+                        }
+                    }
+
+                    .dummyInfo {
+                        max-width: 20px;
+                        height: 20px;
+                        background-color: #f2f6f9;
+                        border-radius: 100%;
+                    }
+
+                    .info-icon {
+                        height: 20px;
+                    }
+                }   
+            }
+        }
+        
+    }
+    &__additional-description {
+        width: 25.333%;
+        flex-shrink: 0;
+        p {
+            color: $c-readable;
+            letter-spacing: -0.14px;
+            line-height: 1.7;
+        }
+        p:last-child {
+            margin-top: 30px;
+        }
+
+        @include break(1340) {
+            width: 100%;
+            margin: 40px -60px -60px;
+            padding: 40px 50px 40px;
+            width: calc(100% + 120px);
+            background: #F5F9FC;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                width: 45%;
+
+                &:last-child {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        @include break(800) {
+            display: block;
+
+            p {
+                width: auto;
+                max-width: 100%;
+
+                &:last-child {
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        @include break(500) {
+            margin: 20px -30px -30px;
+            padding: 30px 40px 30px;
+            width: calc(100% + 60px);
+        }
+    }
+}

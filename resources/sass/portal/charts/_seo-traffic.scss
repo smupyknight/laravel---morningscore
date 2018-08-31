@@ -1,0 +1,11 @@
+.traffic-box-graph__seo-traffic {
+    padding: 0 !important;
+    .chart {
+        height: 380px;
+        max-height: none!important;
+
+        @include break(800) {
+        	height: 210px;
+        }
+    }
+}

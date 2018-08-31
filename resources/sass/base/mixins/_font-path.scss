@@ -1,0 +1,7 @@
+@mixin font_path($name, $path, $srcname, $weight) {
+    $url: "#{$path}/#{$srcname}.ttf";
+
+    font-family: $name;
+    src: url($url);
+	font-weight: $weight;
+}

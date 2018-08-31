@@ -1,0 +1,90 @@
+@mixin button-color($buttonColor, $textColor, $lighten, $darken) {
+    background: $buttonColor;
+    color: $textColor;
+
+    &:hover, &:focus {
+        color: lighten($textColor, $lighten);
+        background: lighten($buttonColor, $lighten);
+    }
+    &:active {
+        color: darken($textColor, $darken);
+        background: darken($buttonColor, $darken);
+    }
+}
+
+.button-style {
+	font-family: 'Gotham', sans-serif;
+    @include fontSize(13px);
+    padding: 0 20px;
+    text-decoration: none;
+    height: 45px;
+    line-height: 47px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    outline: none;
+    transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: $shadow;
+    border-radius: $br;
+
+    &:hover, &:focus {
+    	transform: translateY(-1px);
+    	box-shadow: $shadow-big;
+    }
+    
+
+    &:active {
+    	transform: translateY(1px);
+    	box-shadow: $shadow-small;
+    }
+}
+
+.button {
+    @extend .button-style;
+	@include button-color($c-primary, $white, 4%, 4%);
+
+    &.green {
+        @include button-color($c-secondary, $white, 2%, 4%);
+    }
+
+    &.darkgreen {
+        @include button-color($c-secondary-dark, $white, 2%, 4%);
+    }
+
+    &.white {
+        @include button-color($white, $c-primary, 4%, 4%);
+    }
+}
+
+.play-button {
+    width: 70px;
+    height: 70px;
+    background: $white;
+    border-radius: 35px;
+    box-shadow: $shadow;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        box-shadow: $shadow-big;
+    }
+
+    &:active {
+        box-shadow: $shadow-small;
+        background: darken($white, 3%);
+    }
+
+    img {
+        width: 17px;
+        @include position(absolute, 50%, null, null, 50%);
+        transform: translate(-50%, -50%);
+        user-select: none;
+    }
+}

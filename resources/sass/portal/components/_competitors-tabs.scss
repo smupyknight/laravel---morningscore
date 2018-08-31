@@ -1,0 +1,64 @@
+.competitors-tabs {
+    display: flex;
+    width: 100%;
+
+    &__tab {
+        color: $fc_prim;
+        padding: 15px 10px;
+        position: relative;
+        text-align: center;
+        flex-grow: 1;
+        @include setFontSize(16px, 14px, 14px);
+        border-left: 1px solid lighten($c-border, 35%);
+        cursor: pointer;
+
+        &:last-of-type {
+            border-right: 1px solid lighten($c-border, 35%);
+        }
+        
+        &--active {
+            color: $c-primary;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: -2px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: $c-primary;
+            }
+        }
+	}
+	&--reverse {
+		flex-direction: row-reverse;
+	}
+}
+
+@include breakpoint(mobilelandscape) {
+    .competitors-tabs {
+        flex-direction: column;
+
+        &__tab {
+            text-align: left;
+            border-left: none;
+            border-bottom: 1px solid lighten($c-border, 35%);
+
+            &:last-of-type {
+                border: none;
+            }
+
+            &--active {
+                &:after {
+                    top: 0;
+                    left: -2px;
+                    width: 2px;
+                    height: 100%;
+                }
+            }
+		}
+		&__reverse {
+			flex-direction: row-reverse;
+		}
+    }
+}

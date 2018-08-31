@@ -1,0 +1,118 @@
+.main-navigation {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: background-color .1s ease-out;
+    nav {
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        ul {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .logo {
+                width: 220px;
+                opacity: 1;
+                position: relative;
+                a {
+                	width: 100%;
+                	&:hover img {
+						transform: none;
+					}
+				}
+            }
+            .header-item-left {
+				margin-right: auto;
+			}
+            .logo-blue {
+                display: none;
+            }
+            .logo-white {
+                display: block;
+            }
+            li {
+                padding: 0 15px;
+                color: #fff;
+                transition: opacity 0.2s ease-out;
+                cursor: pointer;
+                p {
+                    font-weight: $fw_medium;
+                }
+                &.pipe {
+                	padding: 0;
+				}
+                &:first-of-type {
+                    padding: 0 15px 0 0;
+                }
+                &:last-of-type {
+                    padding: 0 0 0 15px;
+                }
+                a {
+                    display: block;
+                    font-weight: $fw_medium;
+                    &:hover {
+                        img {
+                            transform: rotate(45deg);
+                        }
+                    }
+                    img {
+                        display: block;
+                        transition: transform .5s ease;
+                    }
+                }
+            }
+        }
+    }
+    .settings-icon {
+        img {
+            top: 18px;
+            height: 23px;
+        }
+        &-white {
+            display: block;
+        }
+        &-gray {
+            display: none;
+        }
+    }
+}
+.main-navigation.active {
+    background-color: $c-lighter;
+	box-shadow: $shadow-small;
+	.domain-picker__active-domain {
+		color: #adafb1 !important;
+        &:after {
+            background-image: url('#{$images-path}/icons/arrow-down.svg');
+        }
+	}
+    ul {
+        li{
+            color: #adafb1 !important;
+        }
+    }
+    .logo-blue {
+        display: block !important;
+    }
+    .logo-white {
+        display: none !important;
+    }
+    .settings-icon {
+        img {
+            height: 23px;
+        }
+        &-white {
+            display: none;
+        }
+        &-gray {
+            display: block;
+        }
+    }
+}

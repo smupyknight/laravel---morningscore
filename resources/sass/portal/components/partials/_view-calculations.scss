@@ -1,0 +1,16 @@
+a.view-calculation {
+    color: $c-primary;
+    @include fontSize(12px);
+    text-decoration: none;
+    font-weight: $fw_bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 16px;
+    letter-spacing: -0.24px;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        color: $c-primary-dark;
+    }
+}

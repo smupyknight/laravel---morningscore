@@ -1,0 +1,73 @@
+.notifications {
+  .notification {
+    position: fixed;
+    z-index: 300000;
+    bottom: 10px;
+    width: 260px;
+    height: auto;
+    padding: 20px;
+    right: 10px;
+    border: 1px solid $c-border;
+    background: #fff;
+    left: auto;
+
+    &.success {
+      background: $c-success;
+      color: $c-text-lighter;
+    }
+
+    &.error {
+      background: $c-danger;
+      color: $c-text-lighter;
+    }
+
+    &.info {
+      background: $c-info;
+      color: $c-text-lighter;
+    }
+
+    &.warning {
+      background: $c-warning;
+      color: $c-text-lighter;
+    }
+
+    .material-icons {
+      line-height: 50px;
+      margin-right: 20px;
+      vertical-align: middle;
+      color: $c-text-lighter;
+    }
+
+    span {
+      display: inline-block;
+      line-height: 1.2;
+      vertical-align: middle;
+      font-family: "Proxima Nova", sans-serif;
+    }
+
+    /*
+     -------------------------------
+     Transitions
+     -------------------------------
+     */
+
+    &.show-enter {
+      right: -300px;
+
+      &.show-enter-active {
+        right: 10px;
+        transition: all 250ms ease-in-out;
+      }
+    }
+
+    &.show-leave {
+      right: 10px;
+
+      &.show-leave-active {
+        right: -300px;
+        transition: all 250ms ease-in-out;
+      }
+    }
+
+  }
+}

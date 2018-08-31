@@ -1,0 +1,23 @@
+.anchor-info, .info-toggle {
+    top: 2px;
+    transition: 0.2s;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    img {
+        height: 20px;
+        width: 20px;    
+    }
+}
+
+.anchor--align-left {
+    position: relative;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.anchor--align-right {
+    position: relative;
+    margin-left: auto;
+}

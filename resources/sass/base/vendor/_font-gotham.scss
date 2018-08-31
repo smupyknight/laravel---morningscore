@@ -1,0 +1,12 @@
+@font-face {
+	@include font_path("Gotham", $fonts-path, "hinted-subset-Gotham-Bold", $fw_bold);
+}
+@font-face {
+	@include font_path("Gotham", $fonts-path, "hinted-subset-Gotham-Book", $fw_regular);
+}
+@font-face {
+	@include font_path("Gotham", $fonts-path, "hinted-subset-Gotham-Light", $fw_light);
+}
+@font-face {
+	@include font_path("Gotham", $fonts-path, "hinted-subset-Gotham-Medium", $fw_medium);
+}

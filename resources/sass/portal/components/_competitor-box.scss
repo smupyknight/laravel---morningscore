@@ -1,0 +1,161 @@
+.competitor-box-wrapper {
+    width: 100%;
+    height: 100%;
+
+    @include break(500) {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    table {
+        width: 100%;
+        height: 100%;
+
+        @include break(500) {
+            min-width: 400px;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
+        td {
+            vertical-align: middle;
+            @include setFontSize(12px, 11px, 10px);
+            line-height: 16px;
+            letter-spacing: 0;
+
+            &:nth-child(1) {
+                padding-left: 30px;
+
+                @include break(900) {
+                    padding-left: 40px;
+                }
+
+                @include break(500) {
+                    padding-left: 30px;
+                }
+
+                .loading-data {
+                    margin: 0;
+                }
+            }
+
+            &:nth-child(2) {
+                text-align: center;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            &:nth-child(3) {
+                text-align: center;
+                position: relative;
+
+                @include break(900) {
+                    padding-right: 40px;
+                }
+
+                @include break(500) {
+                    padding-right: 40px;
+                }
+
+                .loading-data {
+                    margin: 0;
+                    margin-left: auto;
+                }
+            }
+        }
+
+        thead {
+            tr {
+                height: 60px;
+                border-bottom: 1px solid $c-border-light;
+
+                td {
+                    color: $c-text5;
+                    text-transform: uppercase;
+                    font-weight: $fw_bold;
+                    white-space: nowrap;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                border-bottom: 1px solid $c-border-light;
+                height: 46px;
+                min-height: 100%;
+
+                td {
+                    color: $c-text3;
+                    font-weight: $fw_bold;
+
+                    .company-name {
+                        display: inline-flex;
+                        align-items: center;
+                        font-weight: $fw_medium;
+                        height: 100%;
+
+                        .company-color {
+                            @include color-dot(11px, $c-secondary);
+                            margin-right: 10px;
+                            transform: translateY(-1px);
+                            margin-top: 4px;
+                        }
+
+                        span {
+                            flex-shrink: 0;
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        background-color: $c-light;
+
+                        span {
+                            color: $c-text5;
+                        }
+                    }
+                }
+            }
+		}
+		tr:hover .competitor-math-trigger {
+			opacity: 1;
+		}
+    }
+
+    .add-competitors-container {
+        padding: 40px;
+        text-align: center;
+
+        .add-keyword {
+            display: block;
+            position: relative;
+            top: 40%;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.competitor-math-trigger{
+	transition: opacity .1s ease-out;
+    opacity: 0;
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: -200%;
+	
+	p {
+		position: absolute;
+		text-align: center;
+		height: 100%;
+		text-align: right;
+		right: 0;
+		line-height: 320%;
+		width: 33%;
+		background: white;
+		text-align: center;
+		overflow: hidden;
+	}
+}

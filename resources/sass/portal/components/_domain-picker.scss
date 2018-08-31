@@ -1,0 +1,124 @@
+.domain-picker {
+	position: absolute;
+	z-index: 2;
+	margin-top: -20px;
+	height: 40px;
+	&--active {
+		height: 250px;
+
+		.domain-picker__domains-box {
+			opacity: 1;
+			visibility: visible;
+			transform: translate(-50%, 0) scale(1);
+			transition: transform 300ms ease-in-out 100ms, opacity 200ms ease-in-out 100ms, visibility 0s linear;
+		}
+	}
+	&__domains-box {
+		opacity: 0;
+		visibility: hidden;
+		width: 200px;
+		position: absolute;
+		top: 65px;
+		left: 50%;
+		margin-right: -50%;
+		border-radius: 0 0 5px 5px;
+		box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+		transform: translate(-50%, -40px) scale(0.9);
+		transition: transform 300ms ease-in-out 100ms, opacity 200ms ease-in-out 100ms, visibility 0s linear 500ms;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 1px;
+			left: 50%;
+			width: 0;
+			height: 0;
+			border: 12px solid transparent;
+			border-bottom-color: $white;
+			border-top: 0;
+			margin-left: -12px;
+			margin-top: -12px;
+		}
+	}
+	&__domains-list-wrapper {
+		border-radius: 5px 5px 0 0;
+		overflow: hidden;
+		height: 170px;
+
+		input[type="text"] {
+			@include fontSize(12px);
+			color: $c-text3;
+			height: 40px;
+			border: 0;
+			padding: 10px 27px;
+			border-bottom: 1px solid #efefef;
+			background: {
+				color: $c_light;
+				image: url('#{$images-path}/icons/search.svg');
+				repeat: no-repeat;
+				position: 5px center;
+				size: 20px;
+			}
+
+			&:focus {
+				border: 0;
+				border-bottom: 1px solid #efefef;
+			}
+		}
+	}
+	&__active-domain {
+		position: relative;
+		padding: 10px 0;
+		color: $white;
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 17px;
+			right: -11px;
+			width: 10px;
+			height: 10px;
+			background: {
+				image: url('#{$images-path}/icons/arrow-down-white.svg');
+				repeat: no-repeat;
+				size: 10px;
+			}
+		}
+		p {
+			padding-right: 6px;
+		}
+	}
+	&__domains-list {
+		height: 170px;
+		overflow: auto;
+		background-color: $white;
+		&__entry {
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 20px;
+			border-bottom: 1px solid $c-border-light;
+			@include fontSize(12px);
+			color: $c-text3;
+			&:hover {
+				background: $c-light;
+			}
+		}
+	}
+	&__manage-domains {
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+		background: $c-gradient;
+		color: white;
+		border-radius: 0 0 5px 5px;
+	}
+}
+
+.domain-picker-overlay--active {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}

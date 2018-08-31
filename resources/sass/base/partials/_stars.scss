@@ -1,0 +1,31 @@
+.round-star {
+    background: #FFF;
+    border-radius: 100%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.plus-star {
+    width: 2px;
+    background: #FFF;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border-radius: 1px;
+    height: 16px;
+    transform: scale(0);
+
+    &:after {
+        content: '';
+        border-radius: 1px;
+        background: #FFF;
+        position: absolute;
+        height: 2px;
+        width: 16px;
+        left: -7px;
+        top: 7px;
+    }
+}

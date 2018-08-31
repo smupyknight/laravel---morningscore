@@ -1,0 +1,30 @@
+.rank-progress {
+    @extend .white-box;
+
+    .rank-progress-title-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 40px;
+        align-items: center;
+
+        .rank-progress-title {
+            display: flex;
+            align-items: center;
+
+            .rank-progress-title-description {
+                max-width: 550px;
+                border-left: 1px solid $c-border-light;
+                margin-left: 30px;
+                padding-left: 30px;
+                color: $c-text6;
+                font-weight: $fw_medium;
+                font-style: italic;
+                @include fontSize(13px);
+            }
+        }
+    }
+
+    .rank-progress-content {
+        padding: 0 40px 40px;
+    }
+}

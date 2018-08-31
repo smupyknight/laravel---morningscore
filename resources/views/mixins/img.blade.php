@@ -1,0 +1,1 @@
+<img src="{{ $src }}" alt="{{ $alt }}" {!! htmlSrcsetScale($src, $scale ?? '3x') !!}/>

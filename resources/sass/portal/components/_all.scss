@@ -1,0 +1,90 @@
+// PARTIALS
+@import "partials/icons";
+@import "partials/view-calculations";
+@import "partials/time-hours";
+@import "partials/color-dot";
+@import "partials/activity-title";
+@import "partials/buttons";
+@import "partials/more-info-line";
+@import "partials/loading-data";
+@import "partials/percentage-circle";
+
+// COMING SOON
+@import "coming-soon/coming-soon";
+// @import "coming-soon/coming-soon-links";
+@import "coming-soon/coming-soon-activities";
+@import "coming-soon/coming-soon-investments";
+@import "coming-soon/coming-soon-seo";
+@import "coming-soon/coming-soon-onsite";
+@import "coming-soon/coming-soon-tab";
+
+// MODALS
+@import "modals/infographics";
+@import "modals/settings-modal";
+@import "modals/calculations-modal";
+@import "modals/information-modal";
+@import "modals/welcome-modal";
+@import "modals/manage-domains";
+@import "modals/remove-keyword";
+
+// COMPONENTS
+@import "notifications";
+@import "cover";
+@import "current-morningscore";
+@import "morningscore-graph";
+@import "competitor-box";
+@import "tabs";
+@import "seo-traffic-box";
+@import "recent-activity";
+@import "competitor-activity";
+@import "reports-section";
+@import "tracked-keywords";
+@import "suggested-keywords";
+@import "rank-progress";
+@import "report-filter-nav";
+@import "header";
+@import "footer";
+@import "modal";
+@import "forms";
+@import "report-tabs";
+@import "range-picker";
+@import "anchor-modifiers";
+@import "paginator";
+@import "links/lost-links";
+@import "links/new-links";
+@import "links/links-competitors";
+@import "links/all-links";
+@import "domain-picker";
+@import "mobile-overlay";
+@import "filter-dropdown";
+@import "competitors-tabs";
+
+@import "flag-icon";
+.competitor-table {
+    span {
+        min-height: 30px;
+        width: 100%;
+        display: block;
+        transition: background-color 2s ease;
+        &.done {
+            background: green;
+        }
+        &.loading {
+            background: red;
+        }
+    }
+}
+.entry-diff {
+	top: -7px;
+	position: absolute;
+	font-size: 10px;
+	font-weight: 500;
+	&--positive {
+		color: $c_primary;
+	}	
+	&--negative {
+		color: $c-error;
+	}	
+	
+}
+

@@ -1,0 +1,52 @@
+{
+  "entries": {
+    "sass": [
+      "resources/sass/admin.scss",
+      "resources/sass/portal.scss"
+    ],
+    "react": [
+      "resources/js/admin.js",
+      "resources/js/portal.js"
+    ]
+  },
+  "output": {
+    "sass": "public/css",
+    "react": "public/js"
+  },
+  "extract": {
+    "path": "public/js/vendor.js",
+    "modules": [
+      "react",
+      "react-dom",
+      "react-dom/server",
+      "cleopatra",
+      "es6-promise",
+      "object-assign",
+      "prop-types",
+      "react-transition-group",
+      "shortid",
+      "moment",
+      "react-required-if",
+      "axios",
+      "react-modal",
+      "socket.io-client",
+      "uuid",
+      "morningscore-charts",
+      "animejs",
+      "react-date-range",
+      "babel-polyfill"
+    ]
+  },
+  "autoload": {
+    "react": [
+      "React"
+    ]
+  },
+  "aliases": {
+    "app": "resources/js/app"
+  },
+  "notifications": false,
+  "version": true,
+  "sourceMaps": true,
+  "processCssUrls": false
+}

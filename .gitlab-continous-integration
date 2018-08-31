@@ -1,0 +1,22 @@
+before_script:
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - ssh-keyscan -p 7331 -H grandcentral.backuptrain.dk >> ~/.ssh/known_hosts
+  - ssh-keyscan -H $LIVE_IP >> ~/.ssh/known_hosts
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+  - npm install
+  - npm install cross-env
+  - npm run production
+
+deploy:
+  stage: build
+  script:
+    - rsync -avz -e "ssh" . $LIVE_USER@$LIVE_IP:$LIVE_HOME/../.tmp
+    - ssh $LIVE_USER@$LIVE_IP "cd $LIVE_HOME/../.tmp && composer install"
+    - ssh $LIVE_USER@$LIVE_IP "cd $LIVE_HOME && php artisan config:cache"
+    - ssh $LIVE_USER@$LIVE_IP "cd $LIVE_HOME && php artisan migrate --force"
+    - ssh $LIVE_USER@$LIVE_IP "cd $LIVE_HOME && php artisan optimize --force"
+  only:
+    - master

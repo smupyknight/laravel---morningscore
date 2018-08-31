@@ -1,0 +1,52 @@
+.competitor-hours {
+	@extend .white-box;
+	max-width: 100%;
+	width: 50%;
+	overflow: hidden;
+	margin-left: 30px;
+
+	@include break(1160) {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 30px;
+    }
+
+	.competitor-hours-content-wrapper {
+		.competitor-hours-content-head {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 80px;
+			border-bottom: 1px solid $c-border-light;
+			padding: 0 40px;
+			background-color: $c-light;
+			@include fontSize(13px);
+
+			span {
+				color: $c-text5;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+		}
+
+		ul.competitor-hours-content-container {
+			max-height: 240px;
+			@extend .custom-scrollbar;
+
+			li {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				height: 80px;
+				border-bottom: 1px solid $c-border-light;
+				padding: 0 40px;
+
+				.competitor-hours-business {
+					color: $c-text3;
+					@include fontSize(14px);
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}

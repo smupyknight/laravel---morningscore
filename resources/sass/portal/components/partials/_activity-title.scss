@@ -1,0 +1,23 @@
+.activity-box-title-container {
+    border-bottom: 1px solid $c-border-light;
+    padding: 0 40px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    height: 88px;
+    justify-content: space-between;
+
+    .activity-box-title {
+        margin-top: 2px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+
+        h5 {
+            padding-right: 15px;
+            border-right: 1px solid $c-border-light;
+            @include fontSize(18px);
+            line-height: 26px;
+        }
+    }
+}

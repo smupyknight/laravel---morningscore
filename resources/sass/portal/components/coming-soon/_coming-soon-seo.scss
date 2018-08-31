@@ -1,0 +1,47 @@
+.coming-seo {
+    @extend .white-box;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    @include break(1200) {
+        display: block;
+    }
+    &__info {
+        width: 35%;
+        padding: 60px;
+        @include break(1600) {
+            width: 45%;
+        }
+        @include break(1200) {
+            width: 100%;
+        }
+        @include break(500) {
+            padding: 30px;
+        }
+        &__description {
+            @extend .cs-desc;
+        }
+    
+        &__time-to-release {
+            @extend .cs-ttr;
+        }
+    }
+    &__chart {
+        width: 65%;
+        padding: 20px;
+        background-color: $c-light;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+
+        @include break(1600) {
+            width: 55%;
+        }
+        @include break(1200) {
+            width: 100%;
+        }
+    }
+}

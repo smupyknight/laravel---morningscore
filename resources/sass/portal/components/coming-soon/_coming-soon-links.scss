@@ -1,0 +1,175 @@
+.coming-links {
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include break(1100) {
+        display: block;
+    }
+
+    @include break(500) {
+        padding-top: 30px;
+    }
+
+    &__info {
+        width: 28%;
+        margin-top: -26px;
+
+        @include break(1500) {
+            width: 40%;
+        }
+        @include break(1100) {
+            width: 100%;
+            margin-bottom: 70px;
+        }
+        &__description {
+            @extend .cs-desc;
+        }
+        &__time-to-release {
+            @extend .cs-ttr;
+        }
+    }
+    
+    &__table {
+        @extend .white-box;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 33px 0 33px 0;
+        width: 60%;
+
+        @include break(1775) {
+            top: 20px;
+        }
+
+        @include break(1500) {
+            width: 50%;
+            top: -5px;
+        }
+
+        @include break(1200) {
+            top: 20px;
+        }
+
+        @include break(1100) {
+            width: 100%;
+            position: inherit;
+        }
+
+        @include break(640) {
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            @include fontSize(20px);
+            font-weight: $fw_bold;
+            text-transform: uppercase;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            padding: 0 0 11px 40px;
+            color: $c-primary;
+
+            @include break(640) {
+                padding: 0 40px 11px 40px;
+            }
+        }
+
+        &_wrapper {
+            @include break(640) {
+                overflow: auto;
+            }
+        }
+
+        table {
+            width: 100%;
+
+            @include break(640) {
+                width: 500px !important;
+                overflow-x: scroll;
+            }
+
+            thead, tbody {
+                tr {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 50px;   
+                    border-bottom: 1px solid $c-border-light;
+                    td {
+                        h6, p {
+                            color: $c-text3;
+                        }
+                        h6 {
+                            font-weight: $fw_bold;
+                            text-transform: uppercase;
+                            @include fontSize(14px);
+                            line-height: 20px;
+                        }
+                        p {
+                            font-weight: 600;
+                            @include setFontSize(16px, 14px, 13px);
+                            line-height: 22px;
+                        }
+                        display: flex;
+                        align-items: center;
+                    }
+                    td:first-child { 
+                        padding-left: 40px;
+                        width: 70%;
+
+                        p {
+                            font-weight: 500;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            max-width: 100%;
+                        }
+
+                        @include break(1500) {
+                            width: 50%;
+                        }
+                    }
+                    td:nth-child(2) { 
+                        justify-content: center;
+                        width: 20%; 
+
+                        @include break(1500) {
+                            width: 30%;
+                        }
+                    }
+                    td:last-child { 
+                        justify-content: center;
+                        width: 15%; 
+
+                        @include break(1500) {
+                            width: 20%;
+                        }
+                    }
+                }
+            }
+            tbody {
+                td {
+                    position: relative;
+                    &:last-child {
+                        background: $c-light;
+                        .status-icon {
+                            transform: translateY(0);
+                            display: flex;
+                            top: unset;
+                            right: unset;
+                            div {
+                                transform: rotate(90deg);
+                                border-bottom: 10px solid $c-text6;
+                                border-left: 6px solid transparent;
+                                border-right: 6px solid transparent;
+                            }
+                            .active {
+                                border-bottom: 10px solid $c-primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.infographics-head {
+	padding: 60px 100px;
+
+	@include break(700) {
+		padding: 40px;
+	}
+
+	h2 {
+		font-weight: $fw_medium;
+		font-size: 2.5rem;
+	}
+}
+
+.infographics-body {
+	padding: 60px 100px;
+
+	+ .infographics-body {
+	    padding-top: 0;
+	}
+
+	@include break(700) {
+		padding: 40px;
+	}
+
+	h2 {
+		font-weight: $fw_medium;
+		font-size: 2.5rem;
+	}
+
+	.infographics-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		@include break(700) {
+			display: block;
+		}
+
+		&:nth-last-child(1) {
+			margin-bottom: 0;
+		}
+
+		&__item {
+			width: calc(50% - 20px);
+
+			@include break(700) {
+				width: 100%;
+			}
+
+			h3 {
+				text-transform: uppercase;
+				color: $c-text6;
+				font-weight: $fw_medium;
+				@include fontSize(16px);
+				margin-bottom: 5px;
+			}
+
+			p {
+				@include fontSize(18px);
+				line-height: 23px;
+				color: $c-readable-dark;
+				white-space: pre-wrap;
+			}
+
+			img {
+				max-height: 420px;
+			}
+		}
+
+		&:nth-child(even) {
+			flex-direction: row-reverse;
+
+			img {
+				float: right;
+			}
+		}
+	}
+
+	.current_morningscore--first {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 20px;
+
+		div {
+			max-width: 270px;
+			@include fontSize(18px);
+			line-height: 23px;
+			color: $c-readable-dark;
+		}
+	}
+}

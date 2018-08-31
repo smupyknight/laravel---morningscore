@@ -1,0 +1,2374 @@
+{
+  "ps-af": {
+    "search_engine": "google.com.af",
+    "country_iso_code": "AF",
+    "country": "Afghanistan",
+    "language": "Pashto",
+    "localization": "ps-af",
+    "primary": true
+  },
+  "fa-af": {
+    "search_engine": "google.com.af",
+    "country_iso_code": "AF",
+    "country": "Afghanistan",
+    "language": "Persian",
+    "localization": "fa-af"
+  },
+  "sq-al": {
+    "search_engine": "google.al",
+    "country_iso_code": "AL",
+    "country": "Albania",
+    "language": "Albanian",
+    "localization": "sq-al"
+  },
+  "ar-dz": {
+    "search_engine": "google.dz",
+    "country_iso_code": "DZ",
+    "country": "Algeria",
+    "language": "Arabic",
+    "localization": "ar-dz",
+    "primary": true
+  },
+  "fr-dz": {
+    "search_engine": "google.dz",
+    "country_iso_code": "DZ",
+    "country": "Algeria",
+    "language": "French",
+    "localization": "fr-dz"
+  },
+  "en-as": {
+    "search_engine": "google.as",
+    "country_iso_code": "AS",
+    "country": "American Samoa",
+    "language": "English",
+    "localization": "en-as"
+  },
+  "ca-ad": {
+    "search_engine": "google.ad",
+    "country_iso_code": "AD",
+    "country": "Andorra",
+    "language": "Catalan",
+    "localization": "ca-ad"
+  },
+  "kg-ao": {
+    "search_engine": "google.co.ao",
+    "country_iso_code": "AO",
+    "country": "Angola",
+    "language": "Kongo",
+    "localization": "kg-ao",
+    "primary": true
+  },
+  "pt-ao": {
+    "search_engine": "google.co.ao",
+    "country_iso_code": "AO",
+    "country": "Angola",
+    "language": "Portuguese",
+    "localization": "pt-ao"
+  },
+  "en-ai": {
+    "search_engine": "google.com.ai",
+    "country_iso_code": "AI",
+    "country": "Anguilla",
+    "language": "English",
+    "localization": "en-ai"
+  },
+  "en-ag": {
+    "search_engine": "google.com.ag",
+    "country_iso_code": "AG",
+    "country": "Antigua and Barbuda",
+    "language": "English",
+    "localization": "en-ag"
+  },
+  "es-419-ar": {
+    "search_engine": "google.com.ar",
+    "country_iso_code": "AR",
+    "country": "Argentina",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-ar"
+  },
+  "hy-am": {
+    "search_engine": "google.am",
+    "country_iso_code": "AM",
+    "country": "Armenia",
+    "language": "Armenian",
+    "localization": "hy-am",
+    "primary": true
+  },
+  "ru-am": {
+    "search_engine": "google.am",
+    "country_iso_code": "AM",
+    "country": "Armenia",
+    "language": "Russian",
+    "localization": "ru-am"
+  },
+  "en-au": {
+    "search_engine": "google.com.au",
+    "country_iso_code": "AU",
+    "country": "Australia",
+    "language": "English",
+    "localization": "en-au"
+  },
+  "de-at": {
+    "search_engine": "google.at",
+    "country_iso_code": "AT",
+    "country": "Austria",
+    "language": "German",
+    "localization": "de-at"
+  },
+  "az-az": {
+    "search_engine": "google.az",
+    "country_iso_code": "AZ",
+    "country": "Azerbaijan",
+    "language": "Azerbaijani",
+    "localization": "az-az",
+    "primary": true
+  },
+  "ru-az": {
+    "search_engine": "google.az",
+    "country_iso_code": "AZ",
+    "country": "Azerbaijan",
+    "language": "Russian",
+    "localization": "ru-az"
+  },
+  "en-bs": {
+    "search_engine": "google.bs",
+    "country_iso_code": "BS",
+    "country": "Bahamas",
+    "language": "English",
+    "localization": "en-bs"
+  },
+  "ar-bh": {
+    "search_engine": "google.com.bh",
+    "country_iso_code": "BH",
+    "country": "Bahrain",
+    "language": "Arabic",
+    "localization": "ar-bh",
+    "primary": true
+  },
+  "en-bh": {
+    "search_engine": "google.com.bh",
+    "country_iso_code": "BH",
+    "country": "Bahrain",
+    "language": "English",
+    "localization": "en-bh"
+  },
+  "bn-bd": {
+    "search_engine": "google.com.bd",
+    "country_iso_code": "BD",
+    "country": "Bangladesh",
+    "language": "Bengali",
+    "localization": "bn-bd"
+  },
+  "be-by": {
+    "search_engine": "google.by",
+    "country_iso_code": "BY",
+    "country": "Belarus",
+    "language": "Belarusian",
+    "localization": "be-by",
+    "primary": true
+  },
+  "ru-by": {
+    "search_engine": "google.by",
+    "country_iso_code": "BY",
+    "country": "Belarus",
+    "language": "Russian",
+    "localization": "ru-by"
+  },
+  "nl-be": {
+    "search_engine": "google.be",
+    "country_iso_code": "BE",
+    "country": "Belgium",
+    "language": "Dutch",
+    "localization": "nl-be",
+    "primary": true
+  },
+  "fr-be": {
+    "search_engine": "google.be",
+    "country_iso_code": "BE",
+    "country": "Belgium",
+    "language": "French",
+    "localization": "fr-be"
+  },
+  "de-be": {
+    "search_engine": "google.be",
+    "country_iso_code": "BE",
+    "country": "Belgium",
+    "language": "German",
+    "localization": "de-be"
+  },
+  "en-bz": {
+    "search_engine": "google.com.bz",
+    "country_iso_code": "BZ",
+    "country": "Belize",
+    "language": "English",
+    "localization": "en-bz",
+    "primary": true
+  },
+  "es-419-bz": {
+    "search_engine": "google.com.bz",
+    "country_iso_code": "BZ",
+    "country": "Belize",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-bz"
+  },
+  "fr-bj": {
+    "search_engine": "google.bj",
+    "country_iso_code": "BJ",
+    "country": "Benin",
+    "language": "French",
+    "localization": "fr-bj",
+    "primary": true
+  },
+  "yo-bj": {
+    "search_engine": "google.bj",
+    "country_iso_code": "BJ",
+    "country": "Benin",
+    "language": "Yoruba",
+    "localization": "yo-bj"
+  },
+  "es-419-bo": {
+    "search_engine": "google.com.bo",
+    "country_iso_code": "BO",
+    "country": "Bolivia",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-bo",
+    "primary": true
+  },
+  "qu-bo": {
+    "search_engine": "google.com.bo",
+    "country_iso_code": "BO",
+    "country": "Bolivia",
+    "language": "Quechua",
+    "localization": "qu-bo"
+  },
+  "bs-ba": {
+    "search_engine": "google.ba",
+    "country_iso_code": "BA",
+    "country": "Bosnia and Herzegovina",
+    "language": "Bosnian",
+    "localization": "bs-ba",
+    "primary": true
+  },
+  "hr-ba": {
+    "search_engine": "google.ba",
+    "country_iso_code": "BA",
+    "country": "Bosnia and Herzegovina",
+    "language": "Croatian",
+    "localization": "hr-ba"
+  },
+  "sr-ba": {
+    "search_engine": "google.ba",
+    "country_iso_code": "BA",
+    "country": "Bosnia and Herzegovina",
+    "language": "Serbian",
+    "localization": "sr-ba"
+  },
+  "tn-bw": {
+    "search_engine": "google.co.bw",
+    "country_iso_code": "BW",
+    "country": "Botswana",
+    "language": "Setswana",
+    "localization": "tn-bw"
+  },
+  "pt-br-br": {
+    "search_engine": "google.com.br",
+    "country_iso_code": "BR",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "localization": "pt-br-br"
+  },
+  "en-vg": {
+    "search_engine": "google.vg",
+    "country_iso_code": "VG",
+    "country": "British Virgin Islands",
+    "language": "English",
+    "localization": "en-vg"
+  },
+  "zh-cn-bn": {
+    "search_engine": "google.com.bn",
+    "country_iso_code": "BN",
+    "country": "Brunei",
+    "language": "Chinese (Simplified)",
+    "localization": "zh-cn-bn",
+    "primary": true
+  },
+  "ms-bn": {
+    "search_engine": "google.com.bn",
+    "country_iso_code": "BN",
+    "country": "Brunei",
+    "language": "Malay",
+    "localization": "ms-bn"
+  },
+  "bg-bg": {
+    "search_engine": "google.bg",
+    "country_iso_code": "BG",
+    "country": "Bulgaria",
+    "language": "Bulgarian",
+    "localization": "bg-bg"
+  },
+  "fr-bf": {
+    "search_engine": "google.bf",
+    "country_iso_code": "BF",
+    "country": "Burkina Faso",
+    "language": "French",
+    "localization": "fr-bf"
+  },
+  "fr-bi": {
+    "search_engine": "google.bi",
+    "country_iso_code": "BI",
+    "country": "Burundi",
+    "language": "French",
+    "localization": "fr-bi",
+    "primary": true
+  },
+  "rn-bi": {
+    "search_engine": "google.bi",
+    "country_iso_code": "BI",
+    "country": "Burundi",
+    "language": "Kirundi",
+    "localization": "rn-bi"
+  },
+  "sw-bi": {
+    "search_engine": "google.bi",
+    "country_iso_code": "BI",
+    "country": "Burundi",
+    "language": "Swahili",
+    "localization": "sw-bi"
+  },
+  "km-kh": {
+    "search_engine": "google.com.kh",
+    "country_iso_code": "KH",
+    "country": "Cambodia",
+    "language": "Cambodian",
+    "localization": "km-kh"
+  },
+  "fr-cm": {
+    "search_engine": "google.cm",
+    "country_iso_code": "CM",
+    "country": "Cameroon",
+    "language": "French",
+    "localization": "fr-cm"
+  },
+  "en-ca": {
+    "search_engine": "google.ca",
+    "country_iso_code": "CA",
+    "country": "Canada",
+    "language": "English",
+    "localization": "en-ca",
+    "primary": true
+  },
+  "fr-ca": {
+    "search_engine": "google.ca",
+    "country_iso_code": "CA",
+    "country": "Canada",
+    "language": "French",
+    "localization": "fr-ca"
+  },
+  "pt-cv": {
+    "search_engine": "google.cv",
+    "country_iso_code": "CV",
+    "country": "Cape Verde",
+    "language": "Portuguese",
+    "localization": "pt-cv"
+  },
+  "ca-ct": {
+    "search_engine": "google.cat",
+    "country_iso_code": "CT",
+    "country": "Catalonia",
+    "language": "Catalan",
+    "localization": "ca-ct"
+  },
+  "fr-cf": {
+    "search_engine": "google.cf",
+    "country_iso_code": "CF",
+    "country": "Central African Republic",
+    "language": "French",
+    "localization": "fr-cf"
+  },
+  "ar-td": {
+    "search_engine": "google.td",
+    "country_iso_code": "TD",
+    "country": "Chad",
+    "language": "Arabic",
+    "localization": "ar-td",
+    "primary": true
+  },
+  "fr-td": {
+    "search_engine": "google.td",
+    "country_iso_code": "TD",
+    "country": "Chad",
+    "language": "French",
+    "localization": "fr-td"
+  },
+  "es-419-cl": {
+    "search_engine": "google.cl",
+    "country_iso_code": "CL",
+    "country": "Chile",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-cl"
+  },
+  "zh-cn-cn": {
+    "search_engine": "google.com.hk",
+    "country_iso_code": "CN",
+    "country": "China",
+    "language": "Chinese (Simplified)",
+    "localization": "zh-cn-cn"
+  },
+  "es-419-co": {
+    "search_engine": "google.com.co",
+    "country_iso_code": "CO",
+    "country": "Colombia",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-co"
+  },
+  "en-ck": {
+    "search_engine": "google.co.ck",
+    "country_iso_code": "CK",
+    "country": "Cook Islands",
+    "language": "English",
+    "localization": "en-ck"
+  },
+  "es-419-cr": {
+    "search_engine": "google.co.cr",
+    "country_iso_code": "CR",
+    "country": "Costa Rica",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-cr"
+  },
+  "fr-ci": {
+    "search_engine": "google.ci",
+    "country_iso_code": "CI",
+    "country": "Cote dIvoire",
+    "language": "French",
+    "localization": "fr-ci"
+  },
+  "hr-hr": {
+    "search_engine": "google.hr",
+    "country_iso_code": "HR",
+    "country": "Croatia",
+    "language": "Croatian",
+    "localization": "hr-hr"
+  },
+  "es-419-cu": {
+    "search_engine": "google.com.cu",
+    "country_iso_code": "CU",
+    "country": "Cuba",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-cu"
+  },
+  "en-cy": {
+    "search_engine": "google.com.cy",
+    "country_iso_code": "CY",
+    "country": "Cyprus",
+    "language": "English",
+    "localization": "en-cy",
+    "primary": true
+  },
+  "el-cy": {
+    "search_engine": "google.com.cy",
+    "country_iso_code": "CY",
+    "country": "Cyprus",
+    "language": "Greek",
+    "localization": "el-cy"
+  },
+  "tr-cy": {
+    "search_engine": "google.com.cy",
+    "country_iso_code": "CY",
+    "country": "Cyprus",
+    "language": "Turkish",
+    "localization": "tr-cy"
+  },
+  "cs-cz": {
+    "search_engine": "google.cz",
+    "country_iso_code": "CZ",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "localization": "cs-cz"
+  },
+  "ach-cd": {
+    "search_engine": "google.cd",
+    "country_iso_code": "CD",
+    "country": "Democratic Republic of the Congo",
+    "language": "Luo",
+    "localization": "ach-cd"
+  },
+  "fr-cd": {
+    "search_engine": "google.cg",
+    "country_iso_code": "CD",
+    "country": "Republic of the Congo",
+    "language": "French",
+    "localization": "fr-cd"
+  },
+  "kg-cd": {
+    "search_engine": "google.cg",
+    "country_iso_code": "CD",
+    "country": "Republic of the Congo",
+    "language": "Kongo",
+    "localization": "kg-cd",
+    "primary": true
+  },
+  "ln-cd": {
+    "search_engine": "google.cg",
+    "country_iso_code": "CD",
+    "country": "Republic of the Congo",
+    "language": "Lingala",
+    "localization": "ln-cd"
+  },
+  "sw-cd": {
+    "search_engine": "google.cd",
+    "country_iso_code": "CD",
+    "country": "Democratic Republic of the Congo",
+    "language": "Swahili",
+    "localization": "sw-cd",
+    "primary": true
+  },
+  "lua-cd": {
+    "search_engine": "google.cd",
+    "country_iso_code": "CD",
+    "country": "Democratic Republic of the Congo",
+    "language": "Tshiluba",
+    "localization": "lua-cd"
+  },
+  "da-dk": {
+    "search_engine": "google.dk",
+    "country_iso_code": "DK",
+    "country": "Denmark",
+    "language": "Danish",
+    "localization": "da-dk"
+  },
+  "ar-dj": {
+    "search_engine": "google.dj",
+    "country_iso_code": "DJ",
+    "country": "Djibouti",
+    "language": "Arabic",
+    "localization": "ar-dj",
+    "primary": true
+  },
+  "fr-dj": {
+    "search_engine": "google.dj",
+    "country_iso_code": "DJ",
+    "country": "Djibouti",
+    "language": "French",
+    "localization": "fr-dj"
+  },
+  "so-dj": {
+    "search_engine": "google.dj",
+    "country_iso_code": "DJ",
+    "country": "Djibouti",
+    "language": "Somali",
+    "localization": "so-dj"
+  },
+  "en-dm": {
+    "search_engine": "google.dm",
+    "country_iso_code": "DM",
+    "country": "Dominica",
+    "language": "English",
+    "localization": "en-dm"
+  },
+  "es-419-do": {
+    "search_engine": "google.com.do",
+    "country_iso_code": "DO",
+    "country": "Dominican Republic",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-do"
+  },
+  "es-419-ec": {
+    "search_engine": "google.com.ec",
+    "country_iso_code": "EC",
+    "country": "Ecuador",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-ec"
+  },
+  "ar-eg": {
+    "search_engine": "google.com.eg",
+    "country_iso_code": "EG",
+    "country": "Egypt",
+    "language": "Arabic",
+    "localization": "ar-eg",
+    "primary": true
+  },
+  "en-eg": {
+    "search_engine": "google.com.eg",
+    "country_iso_code": "EG",
+    "country": "Egypt",
+    "language": "English",
+    "localization": "en-eg"
+  },
+  "es-419-sv": {
+    "search_engine": "google.com.sv",
+    "country_iso_code": "SV",
+    "country": "El Salvador",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-sv"
+  },
+  "et-ee": {
+    "search_engine": "google.ee",
+    "country_iso_code": "EE",
+    "country": "Estonia",
+    "language": "Estonian",
+    "localization": "et-ee",
+    "primary": true
+  },
+  "ru-ee": {
+    "search_engine": "google.ee",
+    "country_iso_code": "EE",
+    "country": "Estonia",
+    "language": "Russian",
+    "localization": "ru-ee"
+  },
+  "am-et": {
+    "search_engine": "google.com.et",
+    "country_iso_code": "ET",
+    "country": "Ethiopia",
+    "language": "Amharic",
+    "localization": "am-et",
+    "primary": true
+  },
+  "om-et": {
+    "search_engine": "google.com.et",
+    "country_iso_code": "ET",
+    "country": "Ethiopia",
+    "language": "Oromo",
+    "localization": "om-et"
+  },
+  "so-et": {
+    "search_engine": "google.com.et",
+    "country_iso_code": "ET",
+    "country": "Ethiopia",
+    "language": "Somali",
+    "localization": "so-et"
+  },
+  "ti-et": {
+    "search_engine": "google.com.et",
+    "country_iso_code": "ET",
+    "country": "Ethiopia",
+    "language": "Tigrinya",
+    "localization": "ti-et"
+  },
+  "en-fj": {
+    "search_engine": "google.com.fj",
+    "country_iso_code": "FJ",
+    "country": "Fiji",
+    "language": "English",
+    "localization": "en-fj"
+  },
+  "fi-fi": {
+    "search_engine": "google.fi",
+    "country_iso_code": "FI",
+    "country": "Finland",
+    "language": "Finnish",
+    "localization": "fi-fi"
+  },
+  "fr-fr": {
+    "search_engine": "google.fr",
+    "country_iso_code": "FR",
+    "country": "France",
+    "language": "French",
+    "localization": "fr-fr"
+  },
+  "fr-ga": {
+    "search_engine": "google.ga",
+    "country_iso_code": "GA",
+    "country": "Gabon",
+    "language": "French",
+    "localization": "fr-ga"
+  },
+  "en-gm": {
+    "search_engine": "google.gm",
+    "country_iso_code": "GM",
+    "country": "Gambia",
+    "language": "English",
+    "localization": "en-gm",
+    "primary": true
+  },
+  "wo-gm": {
+    "search_engine": "google.gm",
+    "country_iso_code": "GM",
+    "country": "Gambia",
+    "language": "Wolof",
+    "localization": "wo-gm"
+  },
+  "ka-ge": {
+    "search_engine": "google.ge",
+    "country_iso_code": "GE",
+    "country": "Georgia",
+    "language": "Georgian",
+    "localization": "ka-ge"
+  },
+  "de-de": {
+    "search_engine": "google.de",
+    "country_iso_code": "DE",
+    "country": "Germany",
+    "language": "German",
+    "localization": "de-de"
+  },
+  "ak-gh": {
+    "search_engine": "google.com.gh",
+    "country_iso_code": "GH",
+    "country": "Ghana",
+    "language": "Akan",
+    "localization": "ak-gh",
+    "primary": true
+  },
+  "en-gh": {
+    "search_engine": "google.com.gh",
+    "country_iso_code": "GH",
+    "country": "Ghana",
+    "language": "English",
+    "localization": "en-gh"
+  },
+  "ee-gh": {
+    "search_engine": "google.com.gh",
+    "country_iso_code": "GH",
+    "country": "Ghana",
+    "language": "Ewe",
+    "localization": "ee-gh"
+  },
+  "gaa-gh": {
+    "search_engine": "google.com.gh",
+    "country_iso_code": "GH",
+    "country": "Ghana",
+    "language": "Ga",
+    "localization": "gaa-gh"
+  },
+  "ha-gh": {
+    "search_engine": "google.com.gh",
+    "country_iso_code": "GH",
+    "country": "Ghana",
+    "language": "Hausa",
+    "localization": "ha-gh"
+  },
+  "en-gi": {
+    "search_engine": "google.com.gi",
+    "country_iso_code": "GI",
+    "country": "Gibraltar",
+    "language": "English",
+    "localization": "en-gi",
+    "primary": true
+  },
+  "it-gi": {
+    "search_engine": "google.com.gi",
+    "country_iso_code": "GI",
+    "country": "Gibraltar",
+    "language": "Italian",
+    "localization": "it-gi"
+  },
+  "pt-gi": {
+    "search_engine": "google.com.gi",
+    "country_iso_code": "GI",
+    "country": "Gibraltar",
+    "language": "Portuguese",
+    "localization": "pt-gi"
+  },
+  "es-gi": {
+    "search_engine": "google.com.gi",
+    "country_iso_code": "GI",
+    "country": "Gibraltar",
+    "language": "Spanish",
+    "localization": "es-gi"
+  },
+  "el-gr": {
+    "search_engine": "google.gr",
+    "country_iso_code": "GR",
+    "country": "Greece",
+    "language": "Greek",
+    "localization": "el-gr"
+  },
+  "da-gl": {
+    "search_engine": "google.gl",
+    "country_iso_code": "GL",
+    "country": "Greenland",
+    "language": "Danish",
+    "localization": "da-gl"
+  },
+  "fr-gp": {
+    "search_engine": "google.gp",
+    "country_iso_code": "GP",
+    "country": "Guadeloupe",
+    "language": "French",
+    "localization": "fr-gp"
+  },
+  "es-419-gt": {
+    "search_engine": "google.com.gt",
+    "country_iso_code": "GT",
+    "country": "Guatemala",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-gt"
+  },
+  "en-gg": {
+    "search_engine": "google.gg",
+    "country_iso_code": "GG",
+    "country": "Guernsey",
+    "language": "English",
+    "localization": "en-gg",
+    "primary": true
+  },
+  "fr-gg": {
+    "search_engine": "google.gg",
+    "country_iso_code": "GG",
+    "country": "Guernsey",
+    "language": "French",
+    "localization": "fr-gg"
+  },
+  "en-gy": {
+    "search_engine": "google.gy",
+    "country_iso_code": "GY",
+    "country": "Guyana",
+    "language": "English",
+    "localization": "en-gy"
+  },
+  "fr-ht": {
+    "search_engine": "google.ht",
+    "country_iso_code": "HT",
+    "country": "Haiti",
+    "language": "French",
+    "localization": "fr-ht",
+    "primary": true
+  },
+  "ht-ht": {
+    "search_engine": "google.ht",
+    "country_iso_code": "HT",
+    "country": "Haiti",
+    "language": "Haitian Creole",
+    "localization": "ht-ht"
+  },
+  "es-419-hn": {
+    "search_engine": "google.hn",
+    "country_iso_code": "HN",
+    "country": "Honduras",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-hn"
+  },
+  "zh-tw-hk": {
+    "search_engine": "google.com.hk",
+    "country_iso_code": "HK",
+    "country": "Hong Kong",
+    "language": "Chinese (Traditional)",
+    "localization": "zh-tw-hk",
+    "primary": true
+  },
+  "en-hk": {
+    "search_engine": "google.com.hk",
+    "country_iso_code": "HK",
+    "country": "Hong Kong",
+    "language": "English",
+    "localization": "en-hk"
+  },
+  "hu-hu": {
+    "search_engine": "google.hu",
+    "country_iso_code": "HU",
+    "country": "Hungary",
+    "language": "Hungarian",
+    "localization": "hu-hu"
+  },
+  "is-is": {
+    "search_engine": "google.is",
+    "country_iso_code": "IS",
+    "country": "Iceland",
+    "language": "Icelandic",
+    "localization": "is-is"
+  },
+  "bn-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Bengali",
+    "localization": "bn-in",
+    "primary": true
+  },
+  "en-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "English",
+    "localization": "en-in"
+  },
+  "gu-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Gujarati",
+    "localization": "gu-in"
+  },
+  "hi-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Hindi",
+    "localization": "hi-in"
+  },
+  "kn-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Kannada",
+    "localization": "kn-in"
+  },
+  "ml-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Malayalam",
+    "localization": "ml-in"
+  },
+  "mr-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Marathi",
+    "localization": "mr-in"
+  },
+  "pa-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Punjabi",
+    "localization": "pa-in"
+  },
+  "ta-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Tamil",
+    "localization": "ta-in"
+  },
+  "te-in": {
+    "search_engine": "google.co.in",
+    "country_iso_code": "IN",
+    "country": "India",
+    "language": "Telugu",
+    "localization": "te-in"
+  },
+  "jw-id": {
+    "search_engine": "google.co.id",
+    "country_iso_code": "ID",
+    "country": "Indonesia",
+    "language": "Javanese",
+    "localization": "jw-id",
+    "primary": true
+  },
+  "id-id": {
+    "search_engine": "google.co.id",
+    "country_iso_code": "ID",
+    "country": "Indonesia",
+    "language": "Indonesian",
+    "localization": "id-id"
+  },
+  "ar-iq": {
+    "search_engine": "google.iq",
+    "country_iso_code": "IQ",
+    "country": "Iraq",
+    "language": "Arabic",
+    "localization": "ar-iq",
+    "primary": true
+  },
+  "en-iq": {
+    "search_engine": "google.iq",
+    "country_iso_code": "IQ",
+    "country": "Iraq",
+    "language": "English",
+    "localization": "en-iq"
+  },
+  "ckb-iq": {
+    "search_engine": "google.iq",
+    "country_iso_code": "IQ",
+    "country": "Iraq",
+    "language": "Kurdish (Soranî)",
+    "localization": "ckb-iq"
+  },
+  "en-ie": {
+    "search_engine": "google.ie",
+    "country_iso_code": "IE",
+    "country": "Ireland",
+    "language": "English",
+    "localization": "en-ie"
+  },
+  "en-im": {
+    "search_engine": "google.im",
+    "country_iso_code": "IM",
+    "country": "Isle of Man",
+    "language": "English",
+    "localization": "en-im"
+  },
+  "ar-il": {
+    "search_engine": "google.co.il",
+    "country_iso_code": "IL",
+    "country": "Israel",
+    "language": "Arabic",
+    "localization": "ar-il"
+  },
+  "iw-il": {
+    "search_engine": "google.co.il",
+    "country_iso_code": "IL",
+    "country": "Israel",
+    "language": "Hebrew",
+    "localization": "iw-il",
+    "primary": true
+  },
+  "it-it": {
+    "search_engine": "google.it",
+    "country_iso_code": "IT",
+    "country": "Italy",
+    "language": "Italian",
+    "localization": "it-it"
+  },
+  "en-jm": {
+    "search_engine": "google.com.jm",
+    "country_iso_code": "JM",
+    "country": "Jamaica",
+    "language": "English",
+    "localization": "en-jm"
+  },
+  "ja-jp": {
+    "search_engine": "google.co.jp",
+    "country_iso_code": "JP",
+    "country": "Japan",
+    "language": "Japanese",
+    "localization": "ja-jp"
+  },
+  "en-je": {
+    "search_engine": "google.je",
+    "country_iso_code": "JE",
+    "country": "Jersey",
+    "language": "English",
+    "localization": "en-je",
+    "primary": true
+  },
+  "fr-je": {
+    "search_engine": "google.je",
+    "country_iso_code": "JE",
+    "country": "Jersey",
+    "language": "French",
+    "localization": "fr-je"
+  },
+  "ar-jo": {
+    "search_engine": "google.jo",
+    "country_iso_code": "JO",
+    "country": "Jordan",
+    "language": "Arabic",
+    "localization": "ar-jo"
+  },
+  "kk-kz": {
+    "search_engine": "google.kz",
+    "country_iso_code": "KZ",
+    "country": "Kazakhstan",
+    "language": "Kazakh",
+    "localization": "kk-kz",
+    "primary": true
+  },
+  "ru-kz": {
+    "search_engine": "google.kz",
+    "country_iso_code": "KZ",
+    "country": "Kazakhstan",
+    "language": "Russian",
+    "localization": "ru-kz"
+  },
+  "sw-ke": {
+    "search_engine": "google.co.ke",
+    "country_iso_code": "KE",
+    "country": "Kenya",
+    "language": "Swahili",
+    "localization": "sw-ke"
+  },
+  "en-ki": {
+    "search_engine": "google.ki",
+    "country_iso_code": "KI",
+    "country": "Kiribati",
+    "language": "English",
+    "localization": "en-ki"
+  },
+  "ar-kw": {
+    "search_engine": "google.com.kw",
+    "country_iso_code": "KW",
+    "country": "Kuwait",
+    "language": "Arabic",
+    "localization": "ar-kw"
+  },
+  "ky-kg": {
+    "search_engine": "google.kg",
+    "country_iso_code": "KG",
+    "country": "Kyrgyzstan",
+    "language": "Kyrgyz",
+    "localization": "ky-kg"
+  },
+  "lo-la": {
+    "search_engine": "google.la",
+    "country_iso_code": "LA",
+    "country": "Laos",
+    "language": "Lao",
+    "localization": "lo-la"
+  },
+  "lv-lv": {
+    "search_engine": "google.lv",
+    "country_iso_code": "LV",
+    "country": "Latvia",
+    "language": "Latvian",
+    "localization": "lv-lv",
+    "primary": true
+  },
+  "ru-lv": {
+    "search_engine": "google.lv",
+    "country_iso_code": "LV",
+    "country": "Latvia",
+    "language": "Russian",
+    "localization": "ru-lv"
+  },
+  "ar-lb": {
+    "search_engine": "google.com.lb",
+    "country_iso_code": "LB",
+    "country": "Lebanon",
+    "language": "Arabic",
+    "localization": "ar-lb",
+    "primary": true
+  },
+  "hy-lb": {
+    "search_engine": "google.com.lb",
+    "country_iso_code": "LB",
+    "country": "Lebanon",
+    "language": "Armenian",
+    "localization": "hy-lb"
+  },
+  "en-lb": {
+    "search_engine": "google.com.lb",
+    "country_iso_code": "LB",
+    "country": "Lebanon",
+    "language": "English",
+    "localization": "en-lb"
+  },
+  "fr-lb": {
+    "search_engine": "google.com.lb",
+    "country_iso_code": "LB",
+    "country": "Lebanon",
+    "language": "French",
+    "localization": "fr-lb"
+  },
+  "en-ls": {
+    "search_engine": "google.co.ls",
+    "country_iso_code": "LS",
+    "country": "Lesotho",
+    "language": "English",
+    "localization": "en-ls",
+    "primary": true
+  },
+  "st-ls": {
+    "search_engine": "google.co.ls",
+    "country_iso_code": "LS",
+    "country": "Lesotho",
+    "language": "Sesotho",
+    "localization": "st-ls"
+  },
+  "ar-ly": {
+    "search_engine": "google.com.ly",
+    "country_iso_code": "LY",
+    "country": "Libya",
+    "language": "Arabic",
+    "localization": "ar-ly"
+  },
+  "de-li": {
+    "search_engine": "google.li",
+    "country_iso_code": "LI",
+    "country": "Liechtenstein",
+    "language": "German",
+    "localization": "de-li"
+  },
+  "lt-lt": {
+    "search_engine": "google.lt",
+    "country_iso_code": "LT",
+    "country": "Lithuania",
+    "language": "Lithuanian",
+    "localization": "lt-lt"
+  },
+  "fr-lu": {
+    "search_engine": "google.lu",
+    "country_iso_code": "LU",
+    "country": "Luxembourg",
+    "language": "French",
+    "localization": "fr-lu",
+    "primary": true
+  },
+  "de-lu": {
+    "search_engine": "google.lu",
+    "country_iso_code": "LU",
+    "country": "Luxembourg",
+    "language": "German",
+    "localization": "de-lu"
+  },
+  "mk-mk": {
+    "search_engine": "google.mk",
+    "country_iso_code": "MK",
+    "country": "Macedonia",
+    "language": "Macedonian",
+    "localization": "mk-mk"
+  },
+  "fr-mg": {
+    "search_engine": "google.mg",
+    "country_iso_code": "MG",
+    "country": "Madagascar",
+    "language": "French",
+    "localization": "fr-mg",
+    "primary": true
+  },
+  "mg-mg": {
+    "search_engine": "google.mg",
+    "country_iso_code": "MG",
+    "country": "Madagascar",
+    "language": "Malagasy",
+    "localization": "mg-mg"
+  },
+  "ny-mw": {
+    "search_engine": "google.mw",
+    "country_iso_code": "MW",
+    "country": "Malawi",
+    "language": "Chichewa",
+    "localization": "ny-mw",
+    "primary": true
+  },
+  "tum-mw": {
+    "search_engine": "google.mw",
+    "country_iso_code": "MW",
+    "country": "Malawi",
+    "language": "Tumbuka",
+    "localization": "tum-mw"
+  },
+  "en-my": {
+    "search_engine": "google.com.my",
+    "country_iso_code": "MY",
+    "country": "Malaysia",
+    "language": "English",
+    "localization": "en-my",
+    "primary": true
+  },
+  "ms-my": {
+    "search_engine": "google.com.my",
+    "country_iso_code": "MY",
+    "country": "Malaysia",
+    "language": "Malay",
+    "localization": "ms-my"
+  },
+  "en-mv": {
+    "search_engine": "google.mv",
+    "country_iso_code": "MV",
+    "country": "Maldives",
+    "language": "English",
+    "localization": "en-mv"
+  },
+  "fr-ml": {
+    "search_engine": "google.ml",
+    "country_iso_code": "ML",
+    "country": "Mali",
+    "language": "French",
+    "localization": "fr-ml"
+  },
+  "mt-mt": {
+    "search_engine": "google.com.mt",
+    "country_iso_code": "MT",
+    "country": "Malta",
+    "language": "Maltese",
+    "localization": "mt-mt"
+  },
+  "en-mu": {
+    "search_engine": "google.mu",
+    "country_iso_code": "MU",
+    "country": "Mauritius",
+    "language": "English",
+    "localization": "en-mu",
+    "primary": true
+  },
+  "fr-mu": {
+    "search_engine": "google.mu",
+    "country_iso_code": "MU",
+    "country": "Mauritius",
+    "language": "French",
+    "localization": "fr-mu"
+  },
+  "mfe-mu": {
+    "search_engine": "google.mu",
+    "country_iso_code": "MU",
+    "country": "Mauritius",
+    "language": "Mauritian Creole",
+    "localization": "mfe-mu"
+  },
+  "es-419-mx": {
+    "search_engine": "google.com.mx",
+    "country_iso_code": "MX",
+    "country": "Mexico",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-mx"
+  },
+  "en-fm": {
+    "search_engine": "google.fm",
+    "country_iso_code": "FM",
+    "country": "Micronesia",
+    "language": "English",
+    "localization": "en-fm"
+  },
+  "mo-md": {
+    "search_engine": "google.md",
+    "country_iso_code": "MD",
+    "country": "Moldova",
+    "language": "Moldavian",
+    "localization": "mo-md",
+    "primary": true
+  },
+  "ru-md": {
+    "search_engine": "google.md",
+    "country_iso_code": "MD",
+    "country": "Moldova",
+    "language": "Russian",
+    "localization": "ru-md"
+  },
+  "mn-mn": {
+    "search_engine": "google.mn",
+    "country_iso_code": "MN",
+    "country": "Mongolia",
+    "language": "Mongolian",
+    "localization": "mn-mn"
+  },
+  "bs-me": {
+    "search_engine": "google.me",
+    "country_iso_code": "ME",
+    "country": "Serbian",
+    "language": "Bosnian",
+    "localization": "bs-me",
+    "primary": true
+  },
+  "sr-me-me": {
+    "search_engine": "google.me",
+    "country_iso_code": "ME",
+    "country": "Serbian",
+    "language": "Serbian",
+    "localization": "sr-me-me"
+  },
+  "sr-me": {
+    "search_engine": "google.me",
+    "country_iso_code": "ME",
+    "country": "Serbian",
+    "language": "Serbian",
+    "localization": "sr-me"
+  },
+  "en-ms": {
+    "search_engine": "google.ms",
+    "country_iso_code": "MS",
+    "country": "Montserrat",
+    "language": "English",
+    "localization": "en-ms"
+  },
+  "ar-ma": {
+    "search_engine": "google.co.ma",
+    "country_iso_code": "MA",
+    "country": "Morocco",
+    "language": "Arabic",
+    "localization": "ar-ma",
+    "primary": true
+  },
+  "fr-ma": {
+    "search_engine": "google.co.ma",
+    "country_iso_code": "MA",
+    "country": "Morocco",
+    "language": "French",
+    "localization": "fr-ma"
+  },
+  "ny-mz": {
+    "search_engine": "google.co.mz",
+    "country_iso_code": "MZ",
+    "country": "Mozambique",
+    "language": "Chichewa",
+    "localization": "ny-mz",
+    "primary": true
+  },
+  "pt-mz": {
+    "search_engine": "google.co.mz",
+    "country_iso_code": "MZ",
+    "country": "Mozambique",
+    "language": "Portuguese",
+    "localization": "pt-mz"
+  },
+  "sn-mz": {
+    "search_engine": "google.co.mz",
+    "country_iso_code": "MZ",
+    "country": "Mozambique",
+    "language": "Shona",
+    "localization": "sn-mz"
+  },
+  "sw-mz": {
+    "search_engine": "google.co.mz",
+    "country_iso_code": "MZ",
+    "country": "Mozambique",
+    "language": "Swahili",
+    "localization": "sw-mz"
+  },
+  "af-na": {
+    "search_engine": "google.com.na",
+    "country_iso_code": "NA",
+    "country": "Namibia",
+    "language": "Afrikaans",
+    "localization": "af-na",
+    "primary": true
+  },
+  "en-na": {
+    "search_engine": "google.com.na",
+    "country_iso_code": "NA",
+    "country": "Namibia",
+    "language": "English",
+    "localization": "en-na"
+  },
+  "de-na": {
+    "search_engine": "google.com.na",
+    "country_iso_code": "NA",
+    "country": "Namibia",
+    "language": "German",
+    "localization": "de-na"
+  },
+  "en-nr": {
+    "search_engine": "google.nr",
+    "country_iso_code": "NR",
+    "country": "Nauru",
+    "language": "English",
+    "localization": "en-nr"
+  },
+  "ne-np": {
+    "search_engine": "google.com.np",
+    "country_iso_code": "NP",
+    "country": "Nepal",
+    "language": "Nepali",
+    "localization": "ne-np"
+  },
+  "nl-nl": {
+    "search_engine": "google.nl",
+    "country_iso_code": "NL",
+    "country": "Netherlands",
+    "language": "Dutch",
+    "localization": "nl-nl"
+  },
+  "en-nz": {
+    "search_engine": "google.co.nz",
+    "country_iso_code": "NZ",
+    "country": "New Zealand",
+    "language": "English",
+    "localization": "en-nz"
+  },
+  "es-419-ni": {
+    "search_engine": "google.com.ni",
+    "country_iso_code": "NI",
+    "country": "Nicaragua",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-ni"
+  },
+  "fr-ne": {
+    "search_engine": "google.ne",
+    "country_iso_code": "NE",
+    "country": "Niger",
+    "language": "French",
+    "localization": "fr-ne",
+    "primary": true
+  },
+  "ha-ne": {
+    "search_engine": "google.ne",
+    "country_iso_code": "NE",
+    "country": "Niger",
+    "language": "Hausa",
+    "localization": "ha-ne"
+  },
+  "en-ng": {
+    "search_engine": "google.com.ng",
+    "country_iso_code": "NG",
+    "country": "Nigeria",
+    "language": "English",
+    "localization": "en-ng",
+    "primary": true
+  },
+  "ha-ng": {
+    "search_engine": "google.com.ng",
+    "country_iso_code": "NG",
+    "country": "Nigeria",
+    "language": "Hausa",
+    "localization": "ha-ng"
+  },
+  "ig-ng": {
+    "search_engine": "google.com.ng",
+    "country_iso_code": "NG",
+    "country": "Nigeria",
+    "language": "Igbo",
+    "localization": "ig-ng"
+  },
+  "pcm-ng": {
+    "search_engine": "google.com.ng",
+    "country_iso_code": "NG",
+    "country": "Nigeria",
+    "language": "Nigerian Pidgin",
+    "localization": "pcm-ng"
+  },
+  "yo-ng": {
+    "search_engine": "google.com.ng",
+    "country_iso_code": "NG",
+    "country": "Nigeria",
+    "language": "Yoruba",
+    "localization": "yo-ng"
+  },
+  "en-nu": {
+    "search_engine": "google.nu",
+    "country_iso_code": "NU",
+    "country": "Niue",
+    "language": "English",
+    "localization": "en-nu"
+  },
+  "en-nf": {
+    "search_engine": "google.com.nf",
+    "country_iso_code": "NF",
+    "country": "Norfolk Island",
+    "language": "English",
+    "localization": "en-nf"
+  },
+  "no-no": {
+    "search_engine": "google.no",
+    "country_iso_code": "NO",
+    "country": "Norway",
+    "language": "Norwegian",
+    "localization": "no-no"
+  },
+  "ar-om": {
+    "search_engine": "google.com.om",
+    "country_iso_code": "OM",
+    "country": "Oman",
+    "language": "Arabic",
+    "localization": "ar-om",
+    "primary": true
+  },
+  "en-om": {
+    "search_engine": "google.com.om",
+    "country_iso_code": "OM",
+    "country": "Oman",
+    "language": "English",
+    "localization": "en-om"
+  },
+  "en-pk": {
+    "search_engine": "google.com.pk",
+    "country_iso_code": "PK",
+    "country": "Pakistan",
+    "language": "English",
+    "localization": "en-pk"
+  },
+  "ur-pk": {
+    "search_engine": "google.com.pk",
+    "country_iso_code": "PK",
+    "country": "Pakistan",
+    "language": "Urdu",
+    "localization": "ur-pk",
+    "primary": true
+  },
+  "ar-ps": {
+    "search_engine": "google.ps",
+    "country_iso_code": "PS",
+    "country": "Palestine",
+    "language": "Arabic",
+    "localization": "ar-ps"
+  },
+  "es-419-pa": {
+    "search_engine": "google.com.pa",
+    "country_iso_code": "PA",
+    "country": "Panama",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-pa"
+  },
+  "es-419-py": {
+    "search_engine": "google.com.py",
+    "country_iso_code": "PY",
+    "country": "Paraguay",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-py"
+  },
+  "es-419-pe": {
+    "search_engine": "google.com.pe",
+    "country_iso_code": "PE",
+    "country": "Peru",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-pe",
+    "primary": true
+  },
+  "qu-pe": {
+    "search_engine": "google.com.pe",
+    "country_iso_code": "PE",
+    "country": "Peru",
+    "language": "Quechua",
+    "localization": "qu-pe"
+  },
+  "tl-ph": {
+    "search_engine": "google.com.ph",
+    "country_iso_code": "PH",
+    "country": "Philippines",
+    "language": "Tagalog",
+    "localization": "tl-ph"
+  },
+  "en-pn": {
+    "search_engine": "google.pn",
+    "country_iso_code": "PN",
+    "country": "Pitcairn",
+    "language": "English",
+    "localization": "en-pn"
+  },
+  "pl-pl": {
+    "search_engine": "google.pl",
+    "country_iso_code": "PL",
+    "country": "Poland",
+    "language": "Polish",
+    "localization": "pl-pl"
+  },
+  "pt-pt": {
+    "search_engine": "google.pt",
+    "country_iso_code": "PT",
+    "country": "Portugal",
+    "language": "Portuguese",
+    "localization": "pt-pt"
+  },
+  "es-419-pr": {
+    "search_engine": "google.com.pr",
+    "country_iso_code": "PR",
+    "country": "Puerto Rico",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-pr"
+  },
+  "ar-qa": {
+    "search_engine": "google.com.qa",
+    "country_iso_code": "QA",
+    "country": "Qatar",
+    "language": "Arabic",
+    "localization": "ar-qa"
+  },
+  "ro-ro": {
+    "search_engine": "google.ro",
+    "country_iso_code": "RO",
+    "country": "Romania",
+    "language": "Romanian",
+    "localization": "ro-ro"
+  },
+  "ru-ru": {
+    "search_engine": "google.ru",
+    "country_iso_code": "RU",
+    "country": "Russia",
+    "language": "Russian",
+    "localization": "ru-ru"
+  },
+  "en-rw": {
+    "search_engine": "google.rw",
+    "country_iso_code": "RW",
+    "country": "Rwanda",
+    "language": "English",
+    "localization": "en-rw"
+  },
+  "fr-rw": {
+    "search_engine": "google.rw",
+    "country_iso_code": "RW",
+    "country": "Rwanda",
+    "language": "French",
+    "localization": "fr-rw",
+    "primary": true
+  },
+  "rw-rw": {
+    "search_engine": "google.rw",
+    "country_iso_code": "RW",
+    "country": "Rwanda",
+    "language": "Kinyarwanda",
+    "localization": "rw-rw"
+  },
+  "sw-rw": {
+    "search_engine": "google.rw",
+    "country_iso_code": "RW",
+    "country": "Rwanda",
+    "language": "Swahili",
+    "localization": "sw-rw"
+  },
+  "en-sh": {
+    "search_engine": "google.sh",
+    "country_iso_code": "SH",
+    "country": "Saint Helena",
+    "language": "English",
+    "localization": "en-sh"
+  },
+  "en-vc": {
+    "search_engine": "google.com.vc",
+    "country_iso_code": "VC",
+    "country": "Saint Vincent and the Grenadines",
+    "language": "English",
+    "localization": "en-vc"
+  },
+  "en-ws": {
+    "search_engine": "google.ws",
+    "country_iso_code": "WS",
+    "country": "Samoa",
+    "language": "English",
+    "localization": "en-ws"
+  },
+  "it-sm": {
+    "search_engine": "google.sm",
+    "country_iso_code": "SM",
+    "country": "San Marino",
+    "language": "Italian",
+    "localization": "it-sm"
+  },
+  "pt-st": {
+    "search_engine": "google.st",
+    "country_iso_code": "ST",
+    "country": "Sao Tome and Principe",
+    "language": "Portuguese",
+    "localization": "pt-st"
+  },
+  "ar-sa": {
+    "search_engine": "google.com.sa",
+    "country_iso_code": "SA",
+    "country": "Saudi Arabia",
+    "language": "Arabic",
+    "localization": "ar-sa"
+  },
+  "fr-sn": {
+    "search_engine": "google.sn",
+    "country_iso_code": "SN",
+    "country": "Senegal",
+    "language": "French",
+    "localization": "fr-sn",
+    "primary": true
+  },
+  "wo-sn": {
+    "search_engine": "google.sn",
+    "country_iso_code": "SN",
+    "country": "Senegal",
+    "language": "Wolof",
+    "localization": "wo-sn"
+  },
+  "sr-rs": {
+    "search_engine": "google.rs",
+    "country_iso_code": "RS",
+    "country": "Serbia",
+    "language": "Serbian",
+    "localization": "sr-rs"
+  },
+  "en-sc": {
+    "search_engine": "google.sc",
+    "country_iso_code": "SC",
+    "country": "Seychelles",
+    "language": "English",
+    "localization": "en-sc",
+    "primary": true
+  },
+  "fr-sc": {
+    "search_engine": "google.sc",
+    "country_iso_code": "SC",
+    "country": "Seychelles",
+    "language": "French",
+    "localization": "fr-sc"
+  },
+  "crs-sc": {
+    "search_engine": "google.sc",
+    "country_iso_code": "SC",
+    "country": "Seychelles",
+    "language": "Seychellois Creole",
+    "localization": "crs-sc"
+  },
+  "en-sl": {
+    "search_engine": "google.com.sl",
+    "country_iso_code": "SL",
+    "country": "Sierra Leone",
+    "language": "English",
+    "localization": "en-sl",
+    "primary": true
+  },
+  "kri-sl": {
+    "search_engine": "google.com.sl",
+    "country_iso_code": "SL",
+    "country": "Sierra Leone",
+    "language": "Krio (Sierra Leone)",
+    "localization": "kri-sl"
+  },
+  "zh-cn-sg": {
+    "search_engine": "google.com.sg",
+    "country_iso_code": "SG",
+    "country": "Singapore",
+    "language": "Chinese (Simplified)",
+    "localization": "zh-cn-sg",
+    "primary": true
+  },
+  "en-sg": {
+    "search_engine": "google.com.sg",
+    "country_iso_code": "SG",
+    "country": "Singapore",
+    "language": "English",
+    "localization": "en-sg"
+  },
+  "ms-sg": {
+    "search_engine": "google.com.sg",
+    "country_iso_code": "SG",
+    "country": "Singapore",
+    "language": "Malay",
+    "localization": "ms-sg"
+  },
+  "ta-sg": {
+    "search_engine": "google.com.sg",
+    "country_iso_code": "SG",
+    "country": "Singapore",
+    "language": "Tamil",
+    "localization": "ta-sg"
+  },
+  "sk-sk": {
+    "search_engine": "google.sk",
+    "country_iso_code": "SK",
+    "country": "Slovakia",
+    "language": "Slovak",
+    "localization": "sk-sk"
+  },
+  "sl-si": {
+    "search_engine": "google.si",
+    "country_iso_code": "SI",
+    "country": "Slovenia",
+    "language": "Slovenian",
+    "localization": "sl-si"
+  },
+  "en-sb": {
+    "search_engine": "google.com.sb",
+    "country_iso_code": "SB",
+    "country": "Solomon Islands",
+    "language": "English",
+    "localization": "en-sb"
+  },
+  "ar-so": {
+    "search_engine": "google.so",
+    "country_iso_code": "SO",
+    "country": "Somalia",
+    "language": "Arabic",
+    "localization": "ar-so"
+  },
+  "so-so": {
+    "search_engine": "google.so",
+    "country_iso_code": "SO",
+    "country": "Somalia",
+    "language": "Somali",
+    "localization": "so-so",
+    "primary": true
+  },
+  "af-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Afrikaans",
+    "localization": "af-za"
+  },
+  "en-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "English",
+    "localization": "en-za",
+    "primary": true
+  },
+  "nso-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Northern Sotho",
+    "localization": "nso-za"
+  },
+  "st-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Sesotho",
+    "localization": "st-za"
+  },
+  "tn-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Setswana",
+    "localization": "tn-za"
+  },
+  "xh-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Xhosa",
+    "localization": "xh-za"
+  },
+  "zu-za": {
+    "search_engine": "google.co.za",
+    "country_iso_code": "ZA",
+    "country": "South Africa",
+    "language": "Zulu",
+    "localization": "zu-za"
+  },
+  "ko-kr": {
+    "search_engine": "google.co.kr",
+    "country_iso_code": "KR",
+    "country": "South Korea",
+    "language": "Korean",
+    "localization": "ko-kr"
+  },
+  "eu-es": {
+    "search_engine": "google.es",
+    "country_iso_code": "ES",
+    "country": "Spain",
+    "language": "Basque",
+    "localization": "eu-es"
+  },
+  "ca-es": {
+    "search_engine": "google.es",
+    "country_iso_code": "ES",
+    "country": "Spain",
+    "language": "Catalan",
+    "localization": "ca-es"
+  },
+  "en-es": {
+    "search_engine": "google.es",
+    "country_iso_code": "ES",
+    "country": "Spain",
+    "language": "English",
+    "localization": "en-es"
+  },
+  "gl-es": {
+    "search_engine": "google.es",
+    "country_iso_code": "ES",
+    "country": "Spain",
+    "language": "Galician",
+    "localization": "gl-es"
+  },
+  "es-es": {
+    "search_engine": "google.es",
+    "country_iso_code": "ES",
+    "country": "Spain",
+    "language": "Spanish",
+    "localization": "es-es",
+    "primary": true
+  },
+  "en-lk": {
+    "search_engine": "google.lk",
+    "country_iso_code": "LK",
+    "country": "Sri Lanka",
+    "language": "English",
+    "localization": "en-lk"
+  },
+  "si-lk": {
+    "search_engine": "google.lk",
+    "country_iso_code": "LK",
+    "country": "Sri Lanka",
+    "language": "Sinhalese",
+    "localization": "si-lk",
+    "primary": true
+  },
+  "ta-lk": {
+    "search_engine": "google.lk",
+    "country_iso_code": "LK",
+    "country": "Sri Lanka",
+    "language": "Tamil",
+    "localization": "ta-lk"
+  },
+  "sv-se": {
+    "search_engine": "google.se",
+    "country_iso_code": "SE",
+    "country": "Sweden",
+    "language": "Swedish",
+    "localization": "sv-se",
+    "primary": true
+  },
+  "fr-ch": {
+    "search_engine": "google.ch",
+    "country_iso_code": "CH",
+    "country": "Switzerland",
+    "language": "French",
+    "localization": "fr-ch"
+  },
+  "de-ch": {
+    "search_engine": "google.ch",
+    "country_iso_code": "CH",
+    "country": "Switzerland",
+    "language": "German",
+    "localization": "de-ch",
+    "primary": true
+  },
+  "it-ch": {
+    "search_engine": "google.ch",
+    "country_iso_code": "CH",
+    "country": "Switzerland",
+    "language": "Italian",
+    "localization": "it-ch"
+  },
+  "rm-ch": {
+    "search_engine": "google.ch",
+    "country_iso_code": "CH",
+    "country": "Switzerland",
+    "language": "Romansh",
+    "localization": "rm-ch"
+  },
+  "zh-cn-tw": {
+    "search_engine": "google.com.tw",
+    "country_iso_code": "TW",
+    "country": "Taiwan",
+    "language": "Chinese (Simplified)",
+    "localization": "zh-cn-tw"
+  },
+  "ru-tj": {
+    "search_engine": "google.com.tj",
+    "country_iso_code": "TJ",
+    "country": "Tajikistan",
+    "language": "Russian",
+    "localization": "ru-tj"
+  },
+  "tg-tj": {
+    "search_engine": "google.com.tj",
+    "country_iso_code": "TJ",
+    "country": "Tajikistan",
+    "language": "Tajik",
+    "localization": "tg-tj",
+    "primary": true
+  },
+  "sw-tz": {
+    "search_engine": "google.co.tz",
+    "country_iso_code": "TZ",
+    "country": "Tanzania",
+    "language": "Swahili",
+    "localization": "sw-tz"
+  },
+  "th-th": {
+    "search_engine": "google.co.th",
+    "country_iso_code": "TH",
+    "country": "Thailand",
+    "language": "Thai",
+    "localization": "th-th"
+  },
+  "pt-tl": {
+    "search_engine": "google.tl",
+    "country_iso_code": "TL",
+    "country": "Timor-Leste",
+    "language": "Portuguese",
+    "localization": "pt-tl"
+  },
+  "ee-tg": {
+    "search_engine": "google.tg",
+    "country_iso_code": "TG",
+    "country": "Togo",
+    "language": "Ewe",
+    "localization": "ee-tg",
+    "primary": true
+  },
+  "fr-tg": {
+    "search_engine": "google.tg",
+    "country_iso_code": "TG",
+    "country": "Togo",
+    "language": "French",
+    "localization": "fr-tg"
+  },
+  "en-tk": {
+    "search_engine": "google.tk",
+    "country_iso_code": "TK",
+    "country": "Tokelau",
+    "language": "English",
+    "localization": "en-tk"
+  },
+  "to-to": {
+    "search_engine": "google.to",
+    "country_iso_code": "TO",
+    "country": "Tonga",
+    "language": "Tonga",
+    "localization": "to-to"
+  },
+  "zh-tw-tt": {
+    "search_engine": "google.tt",
+    "country_iso_code": "TT",
+    "country": "Trinidad and Tobago",
+    "language": "Chinese (Traditional)",
+    "localization": "zh-tw-tt",
+    "primary": true
+  },
+  "en-tt": {
+    "search_engine": "google.tt",
+    "country_iso_code": "TT",
+    "country": "Trinidad and Tobago",
+    "language": "English",
+    "localization": "en-tt"
+  },
+  "es-419-tt": {
+    "search_engine": "google.tt",
+    "country_iso_code": "TT",
+    "country": "Trinidad and Tobago",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-tt"
+  },
+  "fr-tt": {
+    "search_engine": "google.tt",
+    "country_iso_code": "TT",
+    "country": "Trinidad and Tobago",
+    "language": "French",
+    "localization": "fr-tt"
+  },
+  "ar-tn": {
+    "search_engine": "google.tn",
+    "country_iso_code": "TN",
+    "country": "Tunisia",
+    "language": "Arabic",
+    "localization": "ar-tn",
+    "primary": true
+  },
+  "fr-tn": {
+    "search_engine": "google.tn",
+    "country_iso_code": "TN",
+    "country": "Tunisia",
+    "language": "French",
+    "localization": "fr-tn"
+  },
+  "tr-tr": {
+    "search_engine": "google.com.tr",
+    "country_iso_code": "TR",
+    "country": "Turkey",
+    "language": "Turkish",
+    "localization": "tr-tr"
+  },
+  "ru-tm": {
+    "search_engine": "google.tm",
+    "country_iso_code": "TM",
+    "country": "Turkmenistan",
+    "language": "Russian",
+    "localization": "ru-tm"
+  },
+  "tk-tm": {
+    "search_engine": "google.tm",
+    "country_iso_code": "TM",
+    "country": "Turkmenistan",
+    "language": "Turkmen",
+    "localization": "tk-tm",
+    "primary": true
+  },
+  "uz-tm": {
+    "search_engine": "google.tm",
+    "country_iso_code": "TM",
+    "country": "Turkmenistan",
+    "language": "Uzbek",
+    "localization": "uz-tm"
+  },
+  "lg-ug": {
+    "search_engine": "google.co.ug",
+    "country_iso_code": "UG",
+    "country": "Uganda",
+    "language": "Luganda",
+    "localization": "lg-ug",
+    "primary": true
+  },
+  "rw-ug": {
+    "search_engine": "google.co.ug",
+    "country_iso_code": "UG",
+    "country": "Uganda",
+    "language": "Kinyarwanda",
+    "localization": "rw-ug"
+  },
+  "ach-ug": {
+    "search_engine": "google.co.ug",
+    "country_iso_code": "UG",
+    "country": "Uganda",
+    "language": "Luo",
+    "localization": "ach-ug"
+  },
+  "nyn-ug": {
+    "search_engine": "google.co.ug",
+    "country_iso_code": "UG",
+    "country": "Uganda",
+    "language": "Runyakitara",
+    "localization": "nyn-ug"
+  },
+  "sw-ug": {
+    "search_engine": "google.co.ug",
+    "country_iso_code": "UG",
+    "country": "Uganda",
+    "language": "Swahili",
+    "localization": "sw-ug"
+  },
+  "ru-ua": {
+    "search_engine": "google.com.ua",
+    "country_iso_code": "UA",
+    "country": "Ukraine",
+    "language": "Russian",
+    "localization": "ru-ua"
+  },
+  "uk-ua": {
+    "search_engine": "google.com.ua",
+    "country_iso_code": "UA",
+    "country": "Ukraine",
+    "language": "Ukrainian",
+    "localization": "uk-ua",
+    "primary": true
+  },
+  "ar-ae": {
+    "search_engine": "google.ae",
+    "country_iso_code": "AE",
+    "country": "United Arab Emirates",
+    "language": "Arabic",
+    "localization": "ar-ae",
+    "primary": true
+  },
+  "en-ae": {
+    "search_engine": "google.ae",
+    "country_iso_code": "AE",
+    "country": "United Arab Emirates",
+    "language": "English",
+    "localization": "en-ae"
+  },
+  "hi-ae": {
+    "search_engine": "google.ae",
+    "country_iso_code": "AE",
+    "country": "United Arab Emirates",
+    "language": "Hindi",
+    "localization": "hi-ae"
+  },
+  "fa-ae": {
+    "search_engine": "google.ae",
+    "country_iso_code": "AE",
+    "country": "United Arab Emirates",
+    "language": "Persian",
+    "localization": "fa-ae"
+  },
+  "ur-ae": {
+    "search_engine": "google.ae",
+    "country_iso_code": "AE",
+    "country": "United Arab Emirates",
+    "language": "Urdu",
+    "localization": "ur-ae"
+  },
+  "en-gb": {
+    "search_engine": "google.co.uk",
+    "country_iso_code": "GB",
+    "country": "United Kingdom",
+    "language": "English",
+    "localization": "en-gb"
+  },
+  "en-us": {
+    "search_engine": "google.com",
+    "country_iso_code": "US",
+    "country": "United States",
+    "language": "English",
+    "localization": "en-us"
+  },
+  "es-419-uy": {
+    "search_engine": "google.com.uy",
+    "country_iso_code": "UY",
+    "country": "Uruguay",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-uy"
+  },
+  "ru-uz": {
+    "search_engine": "google.co.uz",
+    "country_iso_code": "UZ",
+    "country": "Uzbekistan",
+    "language": "Russian",
+    "localization": "ru-uz"
+  },
+  "uz-uz": {
+    "search_engine": "google.co.uz",
+    "country_iso_code": "UZ",
+    "country": "Uzbekistan",
+    "language": "Uzbek",
+    "localization": "uz-uz",
+    "primary": true
+  },
+  "en-vu": {
+    "search_engine": "google.vu",
+    "country_iso_code": "VU",
+    "country": "Vanuatu",
+    "language": "English",
+    "localization": "en-vu",
+    "primary": true
+  },
+  "fr-vu": {
+    "search_engine": "google.vu",
+    "country_iso_code": "VU",
+    "country": "Vanuatu",
+    "language": "French",
+    "localization": "fr-vu"
+  },
+  "es-419-ve": {
+    "search_engine": "google.co.ve",
+    "country_iso_code": "VE",
+    "country": "Venezuela",
+    "language": "Spanish (Latin American)",
+    "localization": "es-419-ve"
+  },
+  "vi-vn": {
+    "search_engine": "google.com.vn",
+    "country_iso_code": "VN",
+    "country": "Vietnam",
+    "language": "Vietnamese",
+    "localization": "vi-vn"
+  },
+  "en-vi": {
+    "search_engine": "google.co.vi",
+    "country_iso_code": "VI",
+    "country": "Virgin Islands US",
+    "language": "English",
+    "localization": "en-vi"
+  },
+  "ny-zm": {
+    "search_engine": "google.co.zm",
+    "country_iso_code": "ZM",
+    "country": "Zambia",
+    "language": "Chichewa",
+    "localization": "ny-zm",
+    "primary": true
+  },
+  "tum-zm": {
+    "search_engine": "google.co.zm",
+    "country_iso_code": "ZM",
+    "country": "Zambia",
+    "language": "Tumbuka",
+    "localization": "tum-zm"
+  },
+  "en-zm": {
+    "search_engine": "google.co.zm",
+    "country_iso_code": "ZM",
+    "country": "Zambia",
+    "language": "English",
+    "localization": "en-zm"
+  },
+  "bem-zm": {
+    "search_engine": "google.co.zm",
+    "country_iso_code": "ZM",
+    "country": "Zambia",
+    "language": "Bemba",
+    "localization": "bem-zm"
+  },
+  "loz-zm": {
+    "search_engine": "google.co.zm",
+    "country_iso_code": "ZM",
+    "country": "Zambia",
+    "language": "Lozi",
+    "localization": "loz-zm"
+  },
+  "ny-zw": {
+    "search_engine": "google.co.zw",
+    "country_iso_code": "ZW",
+    "country": "Zimbabwe",
+    "language": "Chichewa",
+    "localization": "ny-zw",
+    "primary": true
+  },
+  "en-zw": {
+    "search_engine": "google.co.zw",
+    "country_iso_code": "ZW",
+    "country": "Zimbabwe",
+    "language": "English",
+    "localization": "en-zw"
+  },
+  "sn-zw": {
+    "search_engine": "google.co.zw",
+    "country_iso_code": "ZW",
+    "country": "Zimbabwe",
+    "language": "Shona",
+    "localization": "sn-zw"
+  },
+  "tn-zw": {
+    "search_engine": "google.co.zw",
+    "country_iso_code": "ZW",
+    "country": "Zimbabwe",
+    "language": "Setswana",
+    "localization": "tn-zw"
+  },
+  "zu-zw": {
+    "search_engine": "google.co.zw",
+    "country_iso_code": "ZW",
+    "country": "Zimbabwe",
+    "language": "Zulu",
+    "localization": "zu-zw"
+  }
+}

@@ -1,0 +1,65 @@
+.filter-dropdown {
+    @extend .button-style;
+    @include button-color($white, $c-primary, 4%, 4%);
+    position: relative;
+    padding-left: 51px;
+	z-index: 2;
+
+    &:after {
+        content: '';
+        background-image: url('../img/icons/filter-icon.svg');
+        background-size: 20px;
+        width: 20px;
+        height: 20px;
+        margin-left: 8px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-backface-visibility: hidden;
+    }
+
+    &:hover, &:focus {
+        transform: none;
+        background: $white;
+    }
+
+    &:active {
+        transform: none;
+        background: $white;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    &__content {
+        // opacity: 0;
+        // visibility: hidden;
+        background-color: $white;
+        position: absolute;
+        left: 0;
+        top: 55px;
+        width: 100%;
+        box-shadow: $shadow;
+        border-radius: $br;
+        transform: scaleY(0);
+        transition: .2s transform ease;
+        transform-origin: top;
+
+        &--active {
+            // opacity: 1;
+            // visibility: visible;
+            transform: scaleY(1);
+        }
+    }
+
+    &__option {
+        &:hover {
+            background: $c-light;
+        }
+    }
+}

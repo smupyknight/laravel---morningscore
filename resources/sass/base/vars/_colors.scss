@@ -1,0 +1,64 @@
+/////////////////////////////////
+// Main colors
+/////////////////////////////////
+
+$c-primary: #3498DB;
+$c-primary-dark: darken($c-primary, 5%);
+$c-primary-light: lighten($c-primary, 5%);
+
+$c-secondary: #00E5D0;
+$c-secondary-dark: darken($c-secondary, 8%);
+$c-secondary-light: darken($c-secondary, 8%);
+
+$c-dark: #262626;
+$c-darker: #1A1A1A;
+$c-light: #F5F9FC;
+$c-lighter: #fff;
+$white: #fff;
+
+/////////////////////////////////
+// Text colors
+/////////////////////////////////
+
+$c-text0: #152D3D;
+$c-text1: #32325D;
+$c-text2: #525F7F;
+$c-text3: #6B7C93;
+$c-text4: #95989A;
+$c-text5: #B0BAC8;
+$c-text6: #ACC2E0;
+$c-text7: #C1DFF4;
+$c-readable: #8b9eb7;
+$c-readable-dark: #6e7c91;
+
+$c-text: #777;
+$c-text-review: #454545;
+$c-text-dark: $c-text1;
+$c-text-light: $c-text4;
+$c-text-lighter: $c-text6;
+$c-text-darker: $c-text0;
+
+$c-footer-title: #87a7d2;
+$c-footer-links: #92a0b3;
+
+/////////////////////////////////
+// Borders
+/////////////////////////////////
+
+$c-border: #95989A;
+$c-border-light: #F5F9FC;
+
+/////////////////////////////////
+// Misc colors
+/////////////////////////////////
+
+$c-success: #27ae60;
+$c-info: #2980b9;
+$c-warning: #f39c12;
+$c-danger: #c0392b;
+$c-error: #FF7979;
+
+/////////////////////////////////
+// Gradient
+/////////////////////////////////
+$c-gradient: linear-gradient(60deg, $c-primary, $c-secondary);

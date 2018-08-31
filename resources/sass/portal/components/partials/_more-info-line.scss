@@ -1,0 +1,46 @@
+.more-info-line {
+    display: inline-block;
+
+    a, span {
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        @include fontSize(14px);
+    }
+
+    span {
+        color: $c-text6;
+        margin-left: 15px;
+        margin-right: .5rem;
+    }
+
+    a {
+        color: $c-primary;
+    }
+
+    @media (max-width: 1550px) and (min-width: 1160px) {
+        margin-left: 15px;
+        
+        a, span {
+            display: block;
+            margin: 0;
+        }
+
+        span {
+            font-weight: $fw_medium;
+        }
+    }
+
+    @include break(800) {
+        margin-left: 15px;
+
+        a, span {
+            display: block;
+            margin: 0;
+        }
+
+        span {
+            font-weight: $fw_medium;
+        }
+    }
+}

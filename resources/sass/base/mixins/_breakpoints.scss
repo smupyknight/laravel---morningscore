@@ -1,0 +1,47 @@
+@mixin breakpoint($type) {
+    @if $type == mobile {
+        @media screen and (max-width: $bp_mobile) {
+            @content;
+        }
+    } @else if $type == mobilelandscape {
+        @media screen and (max-width: $bp_mobilelandscape) {
+            @content;
+        }
+    } @else if $type == tablet {
+        @media screen and (max-width: $bp_tablet) {
+            @content;
+        }
+    } @else if $type == tablet_landscape {
+        @media screen and (max-width: $bp_tabletlandscape) {
+            @content;
+        }
+    } @else if $type == laptop {
+        @media screen and (max-width: $bp_laptop) {
+            @content;
+        }
+    } @else if $type == desktop {
+        @media screen and (max-width: $bp_desktop) {
+            @content;
+        }
+    } @else if $type == retina {
+        @media screen and (min-width: $bp_desktop) {
+            @content;
+        }
+    } @else {
+        @media screen and ($type) {
+            @content;
+        }
+    }
+}
+
+@mixin break($breakpoint) {
+    @media only screen and (max-width: $breakpoint + px) {
+        @content;
+    }
+}
+
+@mixin break-between($bp_min, $bp_max) {
+    @media (min-width: $bp_min + px) and (max-width: $bp_max + px) {
+        @content;
+    }
+}

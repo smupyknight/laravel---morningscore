@@ -1,0 +1,18 @@
+.chart {
+  position: relative;
+  height: 13rem;
+
+  svg.defs {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
+  &, div {
+    box-sizing: border-box;
+  }
+
+  text, span {
+    cursor: default;
+  }
+}

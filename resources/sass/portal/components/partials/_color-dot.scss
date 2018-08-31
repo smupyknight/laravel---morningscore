@@ -1,0 +1,7 @@
+@mixin color-dot($size, $color) {
+	display: block;
+	background-color: $color;
+	border-radius: $size;
+	height: $size;
+	width: $size;
+}

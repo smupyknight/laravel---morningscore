@@ -1,0 +1,229 @@
+.chart.chart--score-progress {
+  position: relative;
+  max-height: 144px;
+
+  text, span {
+    cursor: default;
+  }
+
+  .tooltip {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    background-color: $c_chart_gray;
+    width: 150px;
+    box-shadow: $shadow-small;
+    visibility: hidden;
+    @include clearfix;
+
+    &.show {
+      visibility: visible;
+    }
+
+    &.negative {
+      .numeric {
+        color: $c_chart_danger;
+      }
+    }
+
+    .numeric {
+      position: relative;
+      float: left;
+      width: 40%;
+      color: $c_chart_prim;
+      @include fontSize(18px);
+      font-weight: bold;
+      padding: 4px 10px 4px 0;
+      text-align: center;
+
+      .unit {
+        position: relative;
+        display: inline-block;
+        top: -0.5em;
+        font-size: 70%;
+      }
+    }
+
+    .text {
+      float: left;
+      width: 60%;
+      color: $c_chart_text_darker;
+      @include fontSize(12px);
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 1.2;
+      background-color: #fff;
+
+      span {
+        display: block;
+      }
+    }
+
+    .numeric, .text {
+      padding: 15px;
+    }
+
+    &.tooltip-score {
+      @include clearfix;
+      cursor: default;
+
+      .score-value {
+        float: left;
+        @include fontSize(14px);
+        font-weight: $fw_medium;
+        padding: 7px;
+        color: $c_chart_text_darker;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .score-currency {
+        float: left;
+        @include fontSize(17px);
+        font-weight: $fw_bold;
+        padding: 7px;
+        text-align: center;
+        color: $c_chart_text_darker;
+        width: 100%;
+      }
+    }
+  }
+
+  svg.graph {
+    .axis {
+      .domain {
+        display: none;
+      }
+
+      &.axis--x {
+        .tick {
+          line {
+            stroke: $c_chart_stroke_darker;
+            stroke-dasharray: 6, 20;
+          }
+
+          &.tick--median {
+            line {
+              stroke-dasharray: 15, 15;
+            }
+          }
+
+          &.tick--major {
+            line {
+              stroke-dasharray: 16, 20;
+            }
+          }
+
+          &.tick--minor {
+            text {
+              display: none;
+              @include fontSize(14px);
+            }
+          }
+
+          text {
+            text-anchor: start;
+            @include fontSize(10px);
+            font-weight: bold;
+            fill: $c_chart_text_lighter;
+            text-transform: uppercase;
+          }
+
+          &:last-of-type {
+            text {
+              display: none;
+              //text-anchor: end;
+            }
+          }
+
+          &:first-of-type {
+            text {
+              display: block;
+            }
+          }
+        }
+      }
+
+      &.axis--y {
+        .tick {
+          &:first-of-type {
+            line {
+              display: none;
+              stroke: lighten($c_chart_prim, 30%);
+            }
+          }
+
+          line {
+            stroke: $c_chart_stroke;
+            stroke-width: 3px;
+            stroke-dasharray: 10;
+            transform: translate(0,3px);
+          }
+
+          text {
+            @include fontSize(10px);
+            font-weight: bold;
+            fill: $c_chart_text_lighter;
+            text-anchor: start;
+          }
+        }
+      }
+    }
+
+    .plot {
+      fill: none;
+      stroke-width: 4px;
+      stroke-linecap: round;
+
+      &.plot--past {
+        stroke: rgba($c_chart_stroke_darker, 0.8);
+        visibility: hidden;
+      }
+
+      &.plot--current {
+        stroke: rgba($c_chart_prim, 0.8);
+      }
+    }
+
+    .area {
+      fill: rgba($c_chart_prim, 0.1);
+    }
+
+    .indicator {
+      opacity: 0;
+      //transition: opacity 250ms;
+
+      &.visible {
+        opacity: 1;
+      }
+
+      .indicator--current {
+        fill: rgba($c_chart_prim, 0.8);
+        stroke: rgba($c_chart_stroke, 0.8);
+        stroke-width: 2px;
+      }
+
+      .indicator--past {
+        display: none;
+        fill: rgba($c_chart_darker, 0.8);
+        stroke: rgba($c_chart_stroke_darker, 0.8);
+        stroke-width: 1px;
+      }
+
+      .indicator--path {
+        display: none;
+        fill: none;
+        stroke-width: 2px;
+        stroke: rgba($c_chart_stroke_darker, 0.8);
+      }
+    }
+  }
+
+  &.plots-past {
+    svg.graph .plot.plot--past {
+      visibility: visible;
+    }
+  }
+}

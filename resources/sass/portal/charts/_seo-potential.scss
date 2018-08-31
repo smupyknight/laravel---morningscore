@@ -1,0 +1,192 @@
+.traffic-box-container {
+  min-height: 380px;
+  .title {
+    h2 {
+      font-weight: 600;
+      color: $c-text6;
+    }
+  }
+}
+
+.info-toggle {
+  height: 20px;
+  width: 20px;
+}
+
+.chart.chart--seo-potential {
+  position: relative;
+  height: 30rem !important;
+  margin-left: 6%;
+  width: 90% !important;
+
+  text, span {
+    cursor: default;
+  }
+
+  svg.defs {
+    .current-bar-gradient {
+      .color--0 {
+        stop-color: $c_chart_gradient_dark;
+      }
+
+      .color--1 {
+        stop-color: $c_chart_gradient_light;
+      }
+    }
+
+    .current-bar-hover-gradient {
+      .color--0 {
+        stop-color: darken($c_chart_gradient_dark, 7.5%);
+      }
+
+      .color--1 {
+        stop-color: darken($c_chart_gradient_light, 7.5%);
+      }
+    }
+  }
+
+  svg.graph {
+    @include break(600) {
+      overflow: visible;
+    }
+
+    &.renders-past {
+      .node {
+        .bar--past, .bar--ghost-past {
+          display: block;
+        }
+      }
+    }
+
+    .node {
+      .bar--past, .bar--ghost-past {
+        display: none;
+      }
+
+      .bar--ghost {
+        rect {
+          fill: rgba($c_chart_gray, 1);
+        }
+
+        &.bar--ghost-past {
+          rect {
+            fill: rgba($c_chart_gray, 0.5);
+          }
+        }
+      }
+
+      .bar--past {
+        rect {
+          fill: darken($c_chart_gray, 5%);
+        }
+      }
+
+      .bar--past, .bar--current {
+        text {
+          @include fontSize(12px);
+          font-weight: bold;
+          text-anchor: middle;
+          fill: #728298;
+
+          &.value--current {
+            fill: $c_chart_text;
+          }
+
+          &.value--max {
+            fill: $c_chart_text_darker;
+          }
+        }
+
+        &.bar--past {
+          text {
+            &.value--current {
+              fill: $c_chart_text_darker;
+            }
+          }
+        }
+      }
+    }
+
+    .axis {
+      .domain {
+        display: none;
+      }
+
+      &.axis--x {
+        .tick {
+          .text {
+            @include break(600) {
+              transform: rotate(15deg) translate(0, 10px);
+            }
+
+            .entry-name {
+              @include fontSize(12px);
+              font-weight: bold;
+              fill: $c_chart_text_darker;
+              text-anchor: middle;
+            }
+
+            .entry-score, .entry-domain {
+              @include fontSize(12px);
+              fill: $c_chart_text_lighter;
+              text-anchor: middle;
+            }
+
+            .entry-score {
+              font-weight: bold;
+            }
+          }
+
+          line {
+            stroke: $c_chart_stroke;
+          }
+        }
+      }
+
+      &.axis--y {
+        .tick {
+          &:first-of-type {
+            line {
+              display: none;
+            }
+          }
+
+          line {
+            stroke: $c_chart_stroke;
+            stroke-width: 2px;
+            stroke-dasharray: 12;
+          }
+
+          text {
+            @include fontSize(12px);
+            font-weight: bold;
+            fill: $c_chart_text_lighter;
+            text-anchor: start;
+          }
+        }
+      }
+    }
+  }
+}
+
+.seo-traffic-potential-table {
+	tr {
+		td, th {
+			flex-basis: 20.6666% !important;
+
+			span {
+				margin-left: 3px;
+			}
+		}
+
+		td:not(:first-child) {
+			overflow: unset !important;
+		}
+	}
+}
+.potential-math {
+	margin-top: 30px;
+	span {
+		margin-right: 7px;
+	}
+}

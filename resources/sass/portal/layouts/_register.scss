@@ -1,0 +1,33 @@
+.login-wrapper {
+	.form-container {
+		&.register {
+			.form-content {
+	    		.submit-container {
+	    			input[type="submit"] {
+	    				max-width: 212px;
+	    			}
+	    		}
+	    	}
+
+	    	.form-tos-line {
+				@include fontSize(13px);
+				color: $c-text6;
+				margin-top: 30px;
+
+				a {
+					text-decoration: none;
+					color: $c-primary;
+					font-weight: 500;
+
+					&:hover {
+						color: $c-primary-dark;
+					}
+				}
+			}
+
+	    	.pattern-outer {
+	    		margin-top: 30px;
+	    	}
+		}
+	}
+}

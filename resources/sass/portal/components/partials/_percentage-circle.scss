@@ -1,0 +1,20 @@
+.percentage-circle {
+    $circle_width: 22px;
+    border-radius: $circle_width;
+    width: $circle_width;
+    height: $circle_width;
+    border: 2px solid $c-primary;
+    position: relative;
+    display: inline-block;
+    padding: 2px 0;
+    
+    &:after {
+        content: '%';
+        @include fontSize(13px);
+        color: $c-primary;
+        font-weight: $fw_extrabold;
+        position: absolute;
+        top: 2px;
+        left: 4px;
+    }
+}

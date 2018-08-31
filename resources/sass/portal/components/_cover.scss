@@ -1,0 +1,303 @@
+.cover-wrap {
+    background-color: $c-primary; //Fallback
+    background: $c-gradient;
+    padding: 140px 0 180px;
+    position: relative;
+    z-index: 1;
+
+    #star-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 65%;
+        width: 100%;
+    }
+
+    #no-stars {
+        position: absolute;
+        top: 140px;
+        left: 5%;
+        width: 500px;
+        height: 95px;
+        z-index: 1;
+
+        @include break(900) {
+            margin: 30px 0;
+        }
+        
+        @include break(600) {
+            width: 90%;
+            height: 80px;
+        }
+        
+        @include break(450) {
+            width: 90%;
+            height: 110px;
+        }
+    }
+
+    .cover {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+        padding-bottom: 10%;
+        display: flex;
+
+        .cover-text {
+            position: relative;
+            z-index: 2;
+            max-width: 770px;
+
+            @include break(900) {
+                padding: 30px 0;
+                max-width: unset;
+            }
+            
+            @include break(600) {
+                margin: 0 auto;
+                padding: 35px 0 60px 0;
+                text-align: center;
+            }
+
+            h1 {
+                color: $white;
+                line-height: 43px;
+                @include setFontSize(35px, 30px, 25px);
+                font-weight: 500;
+
+                @include break(500) {
+                    line-height: 30px;
+                }
+
+                span {
+                    display: block;
+                    opacity: 0;
+                    animation: slideUp .5s ease-in forwards;
+                    transform: translate(0, 70px);
+                    letter-spacing: -0.6px;
+
+                    &:last-child {
+                        animation-delay: 0.20s;
+                        @include setFontSize(25px, 20px, 15px);
+                        font-weight: $fw_regular;
+                        letter-spacing: -0.4px;
+                    }
+                }
+            }
+        }
+
+        .cover-figures {
+            position: relative;
+            flex-grow: 1;
+            z-index: 1;
+
+            @include break(900) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            img {
+                position: absolute;
+
+                &:nth-child(1) {
+                    top: -30px;
+                    left: 60px;
+                    opacity: 0;
+                    animation: slideUp .75s ease .4s forwards, floatingRotate 6s ease-in-out 1.15s infinite alternate;
+                    // animation-delay: .4s;
+                }
+                &:nth-child(2) {
+                    top: 50px; 
+                    left: 40%;
+                    transform: scale(0);
+                    animation: scaleUp .4s cubic-bezier(0, 0.71, 0.36, 1.28) .6s forwards, floatingUp 4s ease-in-out 1s infinite alternate;
+                }
+                &:nth-child(3) {
+                    top: -20px; 
+                    right: 33%;
+                    transform: translate(-200px, 50px) scale(0);
+                    animation: animateRocket .5s ease-out 1.3s forwards, floatingRotate 5s ease-in-out 1.8s infinite alternate;
+                }
+                &:nth-child(4) {
+                    top: -70px; 
+                    right: 5%;
+                    transform: scale(0);
+                    animation: scaleUp .4s cubic-bezier(0, 0.71, 0.36, 1.28) 1s forwards, floatingUp 8s ease-in-out 1.4s infinite alternate;;
+				}
+				
+                @include break(1440) {
+                    &:nth-child(1) {
+                        top: -75px;
+                    }
+                    &:nth-child(2) {
+                        top: -100px; 
+                        left: 35%;
+                    }
+                    &:nth-child(3) {
+                        top: -5px;
+                        right: 40%;
+                    }
+                }
+                
+                @include break(1280) {
+                   &:nth-child(1) {
+                        max-height: 120px;
+                   }
+                   &:nth-child(2) {
+                       max-height: 45px;
+                   }
+                   &:nth-child(3) {
+                       max-height: 50px;
+                   }
+                   &:nth-child(4) {
+                       max-height: 85px;
+                   } 
+                }
+
+                @include break(1100) {
+                    &:nth-child(1) {
+                        top: -125px;
+                        left: -110px;
+                    }
+                    &:nth-child(2) {
+                        top: -105px;
+                        left: 15%;
+                    }
+                    &:nth-child(3) {
+                        top: 0px;
+                        left: 120px;
+                    }
+                    &:nth-child(4) {
+                        top: -75px;
+                    }
+                }
+
+                @include break(1000) {
+                    &:nth-child(2) {
+                        top: -65px;
+                    }
+                }
+                
+                @include break(900) {
+                    &:nth-child(1) {
+                        top: -75px;
+                        left: 0;
+                        max-height: 90px;
+                    }
+                    &:nth-child(2) {
+                        top: -25px;
+                        left: 60%;
+                    }
+                    &:nth-child(3) {
+                        top: -60px;
+                        max-height: 40px;
+                    }
+                    &:nth-child(4) {
+                        top: -75px;
+                        right: 0;
+                    }
+                }
+
+                @include break(700) {
+                    &:nth-child(3) {
+                        top: -40px;
+                        left: 20%;
+                    }
+                }
+                
+                @include break(550) {
+                    &:nth-child(1) {
+                        left: 25px;
+                        top: -75px;
+                        max-height: 80px;
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                    &:nth-child(3) {
+                        top: -40px;
+                        right: 45%;
+                        left: auto;
+                        max-height: 35px;
+                    }
+                    &:nth-child(4) {
+                        max-height: 70px;
+                        top: -60px;
+                    }
+                }
+            }
+        }
+    }
+
+    .svg-container {
+        position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+        z-index: 1;
+
+		svg {
+            display: block;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .curve {
+            fill: $c-light;
+        }
+
+        #curve1 {
+            opacity: 0.6;
+        }
+
+        #curve2 {
+            opacity: 0.4;
+        }   
+    }
+}
+
+@keyframes slideUp {
+    0% { transform: translate(0, 70px); opacity: 0 }
+    100% { transform: translate(0, 0); opacity: 1 }
+}
+
+@keyframes animateRocket {
+    0% { transform: translate(-200px, 50px) scale(0) }
+    100% { transform: translate(0, 0) scale(1) }
+}
+
+@keyframes scaleUp {
+    0% { transform: scale(0) }
+    100% { transform: scale(1) }
+}
+
+@keyframes floatingDown {
+	from { transform: translateY(0) }
+	to { transform: translateY(15px) }
+}
+
+@keyframes floatingUp {
+	from { transform: translateY(0) }
+	to { transform: translateY(-15px) }
+}
+
+@keyframes floatingRotate {
+	from { transform: translateY(0) rotate(0) }
+	to { transform: translateY(10px) rotate(5deg) }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.cover-wrap .cover .cover-figures img{
+		opacity: 1 !important;
+		animation: none !important;
+		transform: none !important;
+	}
+
+    .cover-wrap .svg-container svg {
+        overflow: visible;
+    }
+}

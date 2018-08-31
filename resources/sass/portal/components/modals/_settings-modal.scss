@@ -1,0 +1,31 @@
+.settings-modal {
+  .log-out-container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+
+    h4 {
+      margin-right: 15px;
+    }
+
+    .log-out-button {
+      margin-top: 10px;
+    }
+
+    p {
+      margin: 0!important;
+    }
+  }
+  .form-body {
+    .modal-title {
+      margin-bottom: 0px !important;
+      margin-top: 4rem;
+    }
+    .form-group {
+      margin-top:0px;
+    }
+  }
+  .version-number {
+  	  font-size: 0.8rem !important;
+  }
+}

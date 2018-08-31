@@ -1,0 +1,4 @@
+*
+!public/
+!.gitignore
+!google_localizations.json
